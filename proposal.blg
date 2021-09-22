@@ -14,51 +14,47 @@ A level-1 auxiliary file: bab2.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: bab3.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
-Reallocating 'name_of_file' (item size: 1) to 17 items.
-A level-1 auxiliary file: markLampiran.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-A level-1 auxiliary file: lampiran.aux
 Database file #1: daftar-pustaka.bib
 Warning--empty booktitle in anonim1992
-You've used 25 entries,
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            600 strings with 6858 characters,
-and the built_in function-call counts, 7348 in all, are:
-= -- 703
-> -- 216
+            606 strings with 6984 characters,
+and the built_in function-call counts, 7868 in all, are:
+= -- 759
+> -- 234
 < -- 25
-+ -- 64
-- -- 64
-* -- 494
-:= -- 1353
-add.period$ -- 75
-call.type$ -- 25
-change.case$ -- 139
-chr.to.int$ -- 25
-cite$ -- 26
-duplicate$ -- 344
-empty$ -- 568
-format.name$ -- 98
-if$ -- 1435
++ -- 74
+- -- 70
+* -- 546
+:= -- 1438
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 148
+chr.to.int$ -- 26
+cite$ -- 27
+duplicate$ -- 358
+empty$ -- 604
+format.name$ -- 105
+if$ -- 1533
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 36
-newline$ -- 126
-num.names$ -- 75
-pop$ -- 175
+newline$ -- 131
+num.names$ -- 78
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 156
+purify$ -- 164
 quote$ -- 0
-skip$ -- 255
+skip$ -- 266
 stack$ -- 0
-substring$ -- 363
-swap$ -- 25
+substring$ -- 429
+swap$ -- 26
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 118
+type$ -- 126
 warning$ -- 1
-while$ -- 57
+while$ -- 63
 width$ -- 0
-write$ -- 304
+write$ -- 318
 (There was 1 warning)

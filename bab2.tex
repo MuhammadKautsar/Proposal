@@ -38,11 +38,24 @@ Menurut \cite{priyadi2014} menyatakan bahwa : Pemodelan basis data dengan menggu
 	\par Garis penghubung merupakan notasi untuk merangkai keterkaitan antara notasi-notasi yang digunakan dalam Diagram E-R , yaitu entitas, Relasi , dan atribut.
 \end{enumerate}
 
-\section{\uppercase{Laravel}}
+\section{\uppercase{Laravel Livewire}}
 \par Laravel adalah sebuah \textit{Framework} PHP dirilis dibawah lisensi MIT dengan kode sumber yang sudah disediakan oleh Github, sama seperti \textit{framework-framework} yang lain, Laravel dibangun dengan konsep MVC \textit{(Model-View-Controller)}, kemudian Laravel dilengkapi juga command line tool yang bernama “Artisan” yang bisa digunakan untuk packaging bundle dan instalasi bundle melalui command prompt \citep{aminudin2015}.
 
-\section{\uppercase{Livewire}}
-Laravel Livewire merupakan full-stack framework yang digunakan untuk laravel, yang memungkinkan kita untuk membuat antar muka dinamis dengan secara mudah, tanpa menghilangkan fungsi dan kenyamanan kita dalam menggunakan framework laravel jadi untuk struktur script dan penulisan dari kondingnya masih menggunakan laravel. \citep{dumetschool2021}.
+\par Livewire adalah kerangka kerja full-stack untuk kerangka Laravel yang membuat membangun antarmuka dinamis menjadi sederhana, tanpa meninggalkan kenyamanan Laravel. Jika Anda menggunakan livewire dengan Laravel maka Anda tidak perlu khawatir tentang menulis kode ajax jquery, livewire akan membantu menulis kode ajax jquery dengan cara yang sangat sederhana menggunakan PHP tanpa penyegaran halaman Validasi Laravel akan berfungsi, formulir akan dikirimkan, dll. Apa yang dilakukan Laravel Livewire? \citep{krishaweb2021}
+
+\begin{itemize}
+	\item Livewire merender output komponen awal dengan halaman (seperti Blade termasuk), dengan cara ini SEO friendly.
+	\item Ketika interaksi terjadi, Livewire membuat permintaan AJAX ke server dengan data yang diperbarui.
+	\item Server merender ulang komponen dan merespons dengan HTML baru.
+	\item Livewire kemudian dengan cerdas mengubah DOM sesuai dengan hal-hal yang berubah.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 10.5cm, height= 6cm]{gambar/laravel-livewire}}
+\caption{Laravel Livewire}
+\label{laravel_livewire}
+\end{figure}
 
 \section{\uppercase{MySQL}}
 MySQL merupakan DBMS yang pertama kali mulai dikembangkan tahun 1994 oleh sebuah perusahaan software bernama TeD Data Konsult AB yang dikemudian hari berganti label menjadi MySQL-AB. Dewasa ini MySQL digunakan oleh sebagian besar web server yang ada di jagat internet. Disamping karena dianggap simple, juga dapat di porting pada berbagai system operasi sekelas server, seperti Windows, Linux, Solaris, Mac OS, BSD, Unix, IBM-AIX. \citep{fathansyah2012}.
@@ -70,12 +83,12 @@ REST (\textit{Representational State Transfer}) merupakan standar arsitektur kom
 \textit{Virtual Private Server (VPS)} adalah virtual machine yang dijual sebagai layanan oleh hosting provider, dalam VPS user bisa mengakses dan mengelola seluruh aspek software dari server termasuk akses administrator di sistem oprasi server sampai aplikasi yang akan di implementasikan di server tersebut. VPS dapat dibagi menjadi beberapa VM \textit{(Virtual Machines)}, dimana di setiap VM adalah berupa \textit{“Virtual server”} yang dapat di install sistem operasi tersendiri. VPS terasa seperti sebuah \textit{Dedicated Server}. Dibanding dengan shared hosting, menyewa VPS akan mendapatkan resource yang lebih baik sehingga tidak terganggu jika ada problem pada website yang dikelola. Selain itu VPS mendapatkan root akses sehingga lebih leluasa dalam mengkustomasi server sesuai kebutuhan \citep{hamida2017analisis}.
 
 \section{\uppercase{Scrum}}
-Menurut \cite{pressman2010} scrum adalah metode pengembangan peranti lunak secara cepat (agile). Prinsip scrum sesuai dengan prinsip-prinsip yang terdapat pada metode pengembangan peranti secara cepat yang digunakan untuk menuntun kegiatan pengembangan peranti lunak, seperti: pemenuhan kebutuhan, analisa, desain, dan penyampaian (delivery). Alur proses scrum dapat dilihat pada gambar 2.1 \citep{pressman2010}: 
+Menurut \cite{pressman2010} scrum adalah metode pengembangan peranti lunak secara cepat (agile). Prinsip scrum sesuai dengan prinsip-prinsip yang terdapat pada metode pengembangan peranti secara cepat yang digunakan untuk menuntun kegiatan pengembangan peranti lunak, seperti: pemenuhan kebutuhan, analisa, desain, dan penyampaian (delivery). Alur proses scrum dapat dilihat pada gambar 2.1 : 
 
 \begin{figure}[H]
 \centering
 {\includegraphics [width = 12.5cm, height= 8cm]{gambar/alur_proses_scrum}}
-\caption{Alur Proses Scrum}
+\caption{Alur Proses Scrum \citep{pressman2010}}
 \label{alur_proses_scrum}
 \end{figure}	
 
@@ -94,7 +107,7 @@ Menurut \cite{pressman2010} scrum adalah metode pengembangan peranti lunak secar
 \end{enumerate}
 
 \section{\uppercase{Black Box Testing}}
-Pengujian \textit{blackbox (blackbox testing)} adalah salah satu metode pengujian perangkat lunak yang berfokus pada sisi fungsionalitas, khususnya pada input dan output aplikasi (apakah sudah sesuai dengan apa yang diharapkan atau belum). Tahap pengujian atau testing merupakan salah satu tahap yang harus ada dalam sebuah siklus pengembangan perangkat lunak (selain tahap perancangan atau desain). \citep{iskandaria2012}. Menurut \cite{shihab2011} kategori kesalahan/error yang akan diketahui melalui black box testing :
+Pengujian \textit{blackbox (blackbox testing)} adalah salah satu metode pengujian perangkat lunak yang berfokus pada sisi fungsionalitas, khususnya pada input dan output aplikasi (apakah sudah sesuai dengan apa yang diharapkan atau belum). Tahap pengujian atau testing merupakan salah satu tahap yang harus ada dalam sebuah siklus pengembangan perangkat lunak (selain tahap perancangan atau desain) \citep{iskandaria2012}. Menurut \cite{shihab2011} kategori kesalahan/error yang akan diketahui melalui black box testing :
 
 \begin{itemize}
 \item Fungsi yang hilang atau tak benar/salah
@@ -105,11 +118,45 @@ Pengujian \textit{blackbox (blackbox testing)} adalah salah satu metode pengujia
 \end{itemize}
 
 
-\section{\uppercase{SYSTEM USABILITY SCALE (SUS)}}
-\textit{System Usability Scale (SUS)} merupakan metode pengujian usability suatu sistem secara sederhana dengan sepuluh skala yang memberikan pandangan secara menyeluruh dari evaluasi tujuan kebergunaan. SUS berupa skala Likert yang sederhana dengan responden diharuskan penjawab tingkat kesetujuan dan ketidaksetujuan daam skala 5 atau 7 poin. SUS dapat dipercaya, skala usability dengan biaya rendah yang dapat digunakan untuk pengujian sistem usability secara global.
+\section{\uppercase{System Usability Scale (SUS)}}
+\textit{System Usability Scale} adalah sebuah metode uji pengguna yang digunakan untuk mengukur \textit{usability}. John Brooke mengembangkan \textit{System Usability Scale} pada tahun 1986 sebagai metode yang menyediakan alat ukur bersifat \textit{“quick and dirty”}. Menurut Brooke, \textit{System Usability Scale} memungkinkan untuk mengevaluasi berbagai macam produk dan jasa, termasuk hardware, software, website dan aplikasi. 
 
-\par \textit{System Usability Scale (SUS)} menghasilkan satu nomor mewakili ukuran gabungan dari kegunaan keseluruhan dari Sistem yang dipelajari. Perhatikan bahwa skor untuk setiap item yang tidak bermakna pada mereka sendiri. Untuk menghitung skor SUS, sum pertama kontribusi skor dari setiap item. Setiap item kontribusi skor akan berkisar dari 0 sampai 4. Untuk item 1,3,5,7, dan 9 kontribusi skor adalah skala posisi dikurangi 1. Untuk item 2,4,6,8 dan 10, kontribusi adalah 5 minus posisi skala. Kalikan jumlah nilai sebesar 2,5 untuk mendapatkan nilai keseluruhan SU. Skor SUS memiliki berbagai 0 sampai 100 \citep{brooke2007}.
+\par Metode penilaian System Usability Scale mengharuskan para peserta untuk memberikan tanggapan terhadap 10 item pernyataan menggunakan 5 poin skala Likert. Responden diminta untuk memberikan penilaian dari skala 1 yang berarti “Sangat tidak setuju”, skala 2 yang berarti “Tidak setuju”, skala 3 yang berarti “Netral”, skala 4 yang berarti “Setuju”, dan skala 5 yang berarti “Sangat setuju”. Jika karena alasan tertentu, Jika responden merasa tidak menemukan skala respon yang tepat, responden harus mengisi titik tengah skala pengujian. System Usability Scale dipercaya skala yang dapat digunakan untuk dua faktor yang berbeda, yaitu mengukur keseluruhan dari usability (8 dari 10 item) dan mengukur learnability 
+(2 dari 10 item) dari suatu sistem. 
 
+\par Adapun 10 item pertanyaan kuesioner yang digunakan dalam metode ini :
+
+\begin{table}[H]
+\centering
+\caption{Item Pernyataan System Usability Scale \citep{bangor2008, finstad2006}}
+\label{item_pernyataan_system_usability_scale}
+\begin{tabular}{|l| >{\centering\arraybackslash} m{10cm}| >{\centering\arraybackslash} m{2cm}|} 
+\hline
+\textbf{No.} & \textbf{Pernyataan} & \textbf{Skala}  \\ 
+\hline
+1.           & Saya pikir bahwa saya akan ingin lebih sering menggunakan aplikasi ini      & 1 s/d 5   \\ 
+\hline
+2.           & Saya merasa sistem ini tidak harus dibuat serumit ini		& 1 s/d 5  \\ 
+\hline
+3.           & Saya pikir sistem ini mudah digunakan     		& 1 s/d 5   \\ 
+\hline
+4.           & Saya pikir saya perlu bantuan tenaga teknis agar dapat menggunakan sistem ini      		& 1 s/d 5      \\ 
+\hline
+5.           & Saya meneukan berbagai fungsi pada sistem ini terintegrasikan dengan baik        	& 1 s/d 5   \\
+\hline
+6.           & Saya pikir ada terlalu banyak ketidaksesuaian dalam sistem ini   & 1 s/d 5   \\
+\hline
+7.           & Saya bayangkan bahwa kebanyakan orang akan belajar menggunakan sistem dengan cepat    & 1 s/d 5   \\
+\hline
+8.           & Saya menemukan bahwa sistem sangat rumit digunakan   & 1 s/d 5   \\
+\hline
+9.           & Saya merasa sangat percaya diri untuk menggunakan sistem ini   & 1 s/d 5   \\
+\hline
+10.           & Saya perlu belajar banyak hal sebelum saya bisa 
+menggunakan sistem ini   & 1 s/d 5   \\
+\hline
+\end{tabular}
+\end{table}
 
 %-----------------------------------------------------------------------------%
 

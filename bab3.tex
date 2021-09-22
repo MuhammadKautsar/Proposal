@@ -54,20 +54,27 @@ Tahapan analisis kebutuhan dimulai dengan menentukan user yang akan terlibat dal
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Perancangan Sistem}
-Tahap perancangan sistem dibuat berdasarkan hasil yang telah didapatkan dari analisis kebutuhan. Kemudian dirancang sistem agar dapat berjalan dengan baik, dimulai dari perancangan prototipe menggunakan figma, selanjutnya perancangan database menggunakan Entity Relationship Diagram (ERD), sampai rancangan alur kerja sistem. Alur kerja sistem dapat dilihat pada Gambar 3.2.
+Tahap perancangan sistem dibuat berdasarkan hasil yang telah didapatkan dari analisis kebutuhan. Kemudian dirancang sistem agar dapat berjalan dengan baik, dimulai dari perancangan prototipe menggunakan figma, selanjutnya perancangan \textit{database} menggunakan \textit{Entity Relationship Diagram} (ERD), sampai rancangan alur kerja sistem. Alur kerja sistem dapat dilihat pada Gambar 3.2.
 
 \begin{figure}[H]
 \centering
-{\includegraphics [width = 14cm, height= 10cm]{gambar/alur_kerja_diagram_new}}
+{\includegraphics [width = 14cm, height= 10cm]{gambar/alur_kerja_sistem}}
 \caption{Alur Kerja Sistem}
 \label{alur_kerja_sistem}
 \end{figure}
 
 \subsection{Implementasi}
-Setelah rancangan sistem selesai dilakukan, selanjutnya akan diimplementasikan hasil rancangan tersebut kedalam bentuk kode pemrograman. Pada tahap ini aplikasi berbasis web akan dibangun menggunakan framework Laravel dan MySQL sebagai databasenya. Selain laravel juga digunakan library tambahan didalamnya yaitu livewire. Livewire merupakan full-stack framework untuk laravel yang berguna untuk membuat tampilan antarmuka menjadi dinamis. Alasan penggunaan livewire didalam penelitian ini supaya tidak perlu membuat terpisah antara front end dan back end sehingga akan mempercepat proses pengembangan aplikasi. Kemudian dari aplikasi web ini nantinya akan dibuatkan REST API untuk aplikasi android agar dapat mengakses dan mengirimkan data ke dalam server.
+Setelah rancangan sistem selesai dilakukan, selanjutnya akan diimplementasikan hasil rancangan tersebut kedalam bentuk kode pemrograman. Pada tahap ini aplikasi berbasis web akan dibangun menggunakan \textit{framework} Laravel dan MySQL sebagai databasenya. Selain laravel juga digunakan \textit{library} tambahan didalamnya yaitu livewire. Livewire merupakan \textit{full-stack framework} untuk laravel yang berguna untuk membuat tampilan antarmuka menjadi dinamis. Alasan penggunaan livewire didalam penelitian ini supaya tidak perlu membuat terpisah antara \textit{front end} dan \textit{back end} sehingga akan mempercepat proses pengembangan aplikasi. Kemudian dari aplikasi web ini nantinya akan dibuatkan REST API untuk aplikasi android agar dapat mengakses dan mengirimkan data ke dalam server.
 
 \subsection{Pengujian}
-Pengujian sistem sangat diperlukan untuk memastikan sistem yang sudah dibangun dapat berjalan sesuai dengan fungsionalitas yang diharapkan. Pada penelitian ini dilakukan pengujian fungsionalitas dan pengujian usabilitas. Pengujian fungsionalitas dilakukan dengan menggunakan metode Black Box sedangkan untuk pengujian usabilitas menggunakan metode System Usability Scale (SUS).
+Pengujian sistem sangat diperlukan untuk memastikan sistem yang sudah dibangun dapat berjalan sesuai dengan apa yang diharapkan. Pada penelitian ini akan dilakukan 2 pengujian yaitu pengujian fungsionalitas dan pengujian usabilitas.
+
+\begin{enumerate}
+\item Pengujian Fungsionalitas
+\par Pengujian Fungsionalitas dilakukan dengan menggunakan metode \textit{Black Box}. Metode ini berfokus pada fungsionalitas dari aplikasi yang telah dibuat dengan cara menguji aplikasi tersebut apakah sudah berjalan sesuai yang diharapkan atau belum, seperti menguji fungsi-fungsi pada aplikasinya, input output yang dihasilkan, serta dalam mengakses data.
+\item Pengujian Usabilitas
+\par Pengujian Usabilitas dilakukan dengan menggunakan \textit{metode System Usability Scale (SUS)}. Pengujian ini dilakukan untuk menguji aplikasi yang sudah dibuat apakah sudah sesuai dengan kebutuhan pengguna serta mudah untuk digunakan dan dipahami oleh pengguna aplikasi. Pengujian akan dilakukan dengan membagikan kuisioner kepada beberapa sampel pengguna yang akan menggunakan aplikasi. Nantinya dari hasil kuisioner tersebut akan didapatkan hasil apakah aplikasi dikatakan layak digunakan atau tidak. 
+\end{enumerate}
 
 %-----------------------------------------------------------------------------%
 

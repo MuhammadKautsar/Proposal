@@ -10,17 +10,11 @@ Anonim (1992).
 \newblock Media tumbuh kultur hidroponik untuk tomat.
 \newblock Universitas Brawijaya Malang.
 
-\bibitem[Brooke, 2007]{brooke2007}
-Brooke, J. (2007).
-\newblock {\em SUS - A quick and dirty usability scale}.
-\newblock Redhatch Consulting Ltd, United Kingdom.
-
-\bibitem[Dumetschool, 2021]{dumetschool2021}
-Dumetschool (2021).
-\newblock Mengenal apa itu laravel livewire.
-\newblock
-  {\url{https://kursuswebprogramming.com/kursus-web-programming-jakarta-mengenal-laravel-livewire/},
-  Diakses pada tanggal 19 September 2021}.
+\bibitem[Bangor dkk., 2008]{bangor2008}
+Bangor, A., Kortum, P, T., dan Millner, J, T. (2008).
+\newblock An empirical evaluation of the system usability scale.
+\newblock {\em International Journal of Human-Computer Interaction},
+  24:574--594.
 
 \bibitem[Fathansyah, 2012]{fathansyah2012}
 Fathansyah (2012).
@@ -32,6 +26,11 @@ Fielding, R.~T. (2000).
 \newblock {\em Architectural styles and the design of network-based software
   architectures}.
 \newblock University of California, Irvine.
+
+\bibitem[Finstad, 2006]{finstad2006}
+Finstad, K. (2006).
+\newblock The system usability scale and non-native english speakers.
+\newblock {\em Journal of Usability Studies}, 4(1):185--188.
 
 \bibitem[Hakim dan Uus, 2004]{hakim2004}
 Hakim, L. dan Uus, M. (2004).
@@ -63,6 +62,12 @@ Iskandaria (2012).
 Kasman, A.~D. (2015).
 \newblock {\em Trik Kolaborasi Android dengan PHP \& MySQL}.
 \newblock Yogyakarta: Lokomedia.
+
+\bibitem[KrishaWeb, 2021]{krishaweb2021}
+KrishaWeb (2021).
+\newblock Laravel livewire: A full-stack framework for laravel.
+\newblock {\url{https://www.krishaweb.com/laravel-livewire}, Diakses pada
+  tanggal 22 September 2021}.
 
 \bibitem[Lingga, 1992]{lingga1992}
 Lingga, P. (1992).
