@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: proposal.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+The style file: style/jifbibstyle.bst
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: kata-pengantar.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: daftar-singkatan.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+A level-1 auxiliary file: bab1.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+A level-1 auxiliary file: bab2.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+A level-1 auxiliary file: bab3.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: markLampiran.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: lampiran.aux
+Database file #1: daftar-pustaka.bib
+Warning--empty booktitle in anonim1992
+You've used 25 entries,
+            1935 wiz_defined-function locations,
+            600 strings with 6858 characters,
+and the built_in function-call counts, 7348 in all, are:
+= -- 703
+> -- 216
+< -- 25
++ -- 64
+- -- 64
+* -- 494
+:= -- 1353
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 139
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 344
+empty$ -- 568
+format.name$ -- 98
+if$ -- 1435
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 36
+newline$ -- 126
+num.names$ -- 75
+pop$ -- 175
+preamble$ -- 1
+purify$ -- 156
+quote$ -- 0
+skip$ -- 255
+stack$ -- 0
+substring$ -- 363
+swap$ -- 25
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 118
+warning$ -- 1
+while$ -- 57
+width$ -- 0
+write$ -- 304
+(There was 1 warning)

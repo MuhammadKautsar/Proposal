@@ -1,0 +1,79 @@
+%-------------------------------------------------------------------------------
+%                            BAB III
+%               		METODOLOGI PENELITIAN
+%-------------------------------------------------------------------------------
+\fancyhf{} 
+\fancyfoot[C]{\thepage}
+\chapter{METODOLOGI PENELITIAN}
+
+\section{\uppercase{WAKTU DAN LOKASI PENELITIAN}}
+Penelitian ini dilaksanakan di kota Banda Aceh. Waktu yang dibutuhkan untuk penelitian ini adalah 5 bulan, yang dimulai dari bulan Mei 2021 hingga Oktober 2021.
+
+\section{\uppercase{ALAT DAN BAHAN}}
+Alat dan Bahan yang akan digunakan pada penelitian ini terdiri dari beberapa perangkat keras (\textit{hardware}) dan perangkat lunak (\textit{software}) yang dijabarkan sebagai berikut:
+
+\begin{enumerate}
+\item Perangkat Keras
+	\begin{itemize}
+	\item Laptop Dell Inspiron 15 7000 dengan spesifikasi RAM 12GB, Intel(R) Core(TM) i5-7300HQ CPU @2.5GHz, HDD 1TB dan SSD 250 GB.
+	\end{itemize}
+
+\item Perangkat Lunak
+	\begin{itemize}
+	\item Sistem Operasi Windows 10
+	\item Figma
+	\item Visual Studio Code v1.60.1
+	\item XAMPP v3.2.4
+	\item Brave Browser v1.29.81
+	\item Potsman v8.10
+	\end{itemize}
+\end{enumerate}
+
+\section{\uppercase{METODE PENELITIAN}}
+Metode penelitian yang dilakukan akan terdiri dari beberapa tahapan. Skema dari alur tahapan tersebut dapat dilihat pada Gambar \ref{alur_penelitian}.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 8cm, height= 12cm]{gambar/flowchart_proposal}}
+\caption{Diagram Alir Penelitian}
+\label{alur_penelitian}
+\end{figure}
+
+\par Adapun untuk metode pengembangan aplikasinya menggunakan metode pengembangan scrum. Metode scrum diimplementasikan pada tahapan analisa kebutuhan, perancangan sistem, implementasi, serta pengujian.
+
+\fancyhf{} 
+\fancyfoot[R]{\thepage}
+
+\subsection{Identifikasi Masalah}
+Tahapan ini merupakan tahapan yang dilakukan untuk mengidentifikasi masalah yang dihadapi pada sistem pemasaran saat ini, sehingga dari permasalahan yang didapatkan menjadi landasan untuk penelitian ini.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Analisis Kebutuhan}
+Tahapan analisis kebutuhan dimulai dengan menentukan user yang akan terlibat dalam aplikasi. Kemudian dilakukan analisa kebutuhan pengguna dan kebutuhan sistem untuk mengetahui fungsi apa saja yang akan dibangun nantinya didalam aplikasi.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Perancangan Sistem}
+Tahap perancangan sistem dibuat berdasarkan hasil yang telah didapatkan dari analisis kebutuhan. Kemudian dirancang sistem agar dapat berjalan dengan baik, dimulai dari perancangan prototipe menggunakan figma, selanjutnya perancangan database menggunakan Entity Relationship Diagram (ERD), sampai rancangan alur kerja sistem. Alur kerja sistem dapat dilihat pada Gambar 3.2.
+
+\begin{figure}[H]
+\centering
+{\includegraphics [width = 14cm, height= 10cm]{gambar/alur_kerja_diagram_new}}
+\caption{Alur Kerja Sistem}
+\label{alur_kerja_sistem}
+\end{figure}
+
+\subsection{Implementasi}
+Setelah rancangan sistem selesai dilakukan, selanjutnya akan diimplementasikan hasil rancangan tersebut kedalam bentuk kode pemrograman. Pada tahap ini aplikasi berbasis web akan dibangun menggunakan framework Laravel dan MySQL sebagai databasenya. Selain laravel juga digunakan library tambahan didalamnya yaitu livewire. Livewire merupakan full-stack framework untuk laravel yang berguna untuk membuat tampilan antarmuka menjadi dinamis. Alasan penggunaan livewire didalam penelitian ini supaya tidak perlu membuat terpisah antara front end dan back end sehingga akan mempercepat proses pengembangan aplikasi. Kemudian dari aplikasi web ini nantinya akan dibuatkan REST API untuk aplikasi android agar dapat mengakses dan mengirimkan data ke dalam server.
+
+\subsection{Pengujian}
+Pengujian sistem sangat diperlukan untuk memastikan sistem yang sudah dibangun dapat berjalan sesuai dengan fungsionalitas yang diharapkan. Pada penelitian ini dilakukan pengujian fungsionalitas dan pengujian usabilitas. Pengujian fungsionalitas dilakukan dengan menggunakan metode Black Box sedangkan untuk pengujian usabilitas menggunakan metode System Usability Scale (SUS).
+
+%-----------------------------------------------------------------------------%
+
+% Baris ini digunakan untuk membantu dalam melakukan sitasi
+% Karena diapit dengan comment, maka baris ini akan diabaikan
+% oleh compiler LaTeX.
+\begin{comment}
+\bibliography{daftar-pustaka}
+\end{comment}
