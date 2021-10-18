@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  22 SEP 2021 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  18 OCT 2021 15:44
 entering extended mode
 **"e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex"
 (e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex
@@ -820,7 +820,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 47
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<gambar/laravel-livewire.jpg, id=314, 863.225pt x 444.66125pt>
+<gambar/laravel-livewire.jpg, id=315, 863.225pt x 444.66125pt>
 File: gambar/laravel-livewire.jpg Graphic file (type jpg)
 <use gambar/laravel-livewire.jpg>
 Package pdftex.def Info: gambar/laravel-livewire.jpg  used on input line 55.
@@ -906,13 +906,13 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 Here is how much of TeX's memory you used:
  15922 strings out of 478927
  238835 string characters out of 2862395
- 585896 words of memory out of 3000000
+ 585900 words of memory out of 3000000
  33258 multiletter control sequences out of 15000+600000
  427910 words of font info for 58 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
  72i,12n,80p,1014b,820s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (23 pages, 571695 bytes).
+Output written on proposal.pdf (23 pages, 572767 bytes).
 PDF statistics:
  477 PDF objects out of 1000 (max. 8388607)
  122 named destinations out of 1000 (max. 500000)

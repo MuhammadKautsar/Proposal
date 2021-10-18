@@ -1007,7 +1007,10 @@ OUTPUT proposal.toc
 INPUT .\proposal.lot
 INPUT proposal.lot
 INPUT proposal.lot
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 OUTPUT proposal.lot
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\proposal.lof
 INPUT proposal.lof
 INPUT proposal.lof
@@ -1036,9 +1039,6 @@ INPUT .\bab1.tex
 INPUT bab1.tex
 INPUT .\bab1.tex
 INPUT bab1.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\bab2.tex
 INPUT .\bab2.tex
 INPUT .\bab2.tex
