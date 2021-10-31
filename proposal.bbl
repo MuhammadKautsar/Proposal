@@ -5,11 +5,6 @@ Aminudin (2015).
 \newblock {\em Cara Efektif Belajar Framework Laravel}.
 \newblock Lokomedia, Yogyakarta.
 
-\bibitem[Anonim, 1992]{anonim1992}
-Anonim (1992).
-\newblock Media tumbuh kultur hidroponik untuk tomat.
-\newblock Universitas Brawijaya Malang.
-
 \bibitem[Bangor dkk., 2008]{bangor2008}
 Bangor, A., Kortum, P, T., dan Millner, J, T. (2008).
 \newblock An empirical evaluation of the system usability scale.
@@ -54,9 +49,19 @@ Hartono, H., Hutomo, K., dan Mayangsari, M. (2012).
   nusantara sebagai objek penelitian.
 \newblock {\em Binus Business Review}, 3(2):882--897.
 
+\bibitem[Herwibowo dan Budiana, 2014]{herwibowo2014hidroponik}
+Herwibowo, K. dan Budiana, N. (2014).
+\newblock {\em Hidroponik Sayuran}.
+\newblock Penebar Swadaya Grup.
+
 \bibitem[Iskandaria, 2012]{iskandaria2012}
 Iskandaria (2012).
 \newblock Contoh pengujian black box.
+
+\bibitem[Istiqomah, 2006]{istiqomah2006menanam}
+Istiqomah, S. (2006).
+\newblock {\em Menanam hidroponik}.
+\newblock Ganeca Exact.
 
 \bibitem[Kasman, 2015]{kasman2015}
 Kasman, A.~D. (2015).
@@ -69,11 +74,6 @@ KrishaWeb (2021).
 \newblock {\url{https://www.krishaweb.com/laravel-livewire}, Diakses pada
   tanggal 22 September 2021}.
 
-\bibitem[Lingga, 1992]{lingga1992}
-Lingga, P. (1992).
-\newblock {\em Bertanam Umbi-Umbian}.
-\newblock Jakarta: Penerbit Swadaya.
-
 \bibitem[Pressman, 2010]{pressman2010}
 Pressman, R.~S. (2010).
 \newblock {\em Software Engineering : a practitioner’s approach}.
@@ -83,12 +83,6 @@ Pressman, R.~S. (2010).
 Priyadi, Y. (2014).
 \newblock {\em Kolaborasi SQL dan ERD Dalam Implementasi Database}.
 \newblock Yogyakarta : C.V Andi Offset.
-
-\bibitem[Resh dkk., 1995]{resh1995hydroponic}
-Resh, H.~M. dkk. (1995).
-\newblock {\em Hydroponic food production. A definitive guidebook of soilless
-  food-growing methods.}
-\newblock Ed. 5. Woodbridge press publishing company.
 
 \bibitem[Rosliani dan Sumarni, 2005]{rosliani2005budidaya}
 Rosliani, R. dan Sumarni, N. (2005).
@@ -108,11 +102,6 @@ Sartika, D. P.~T. dan Soejoedono, R. (2002).
 \bibitem[Shihab, 2011]{shihab2011}
 Shihab (2011).
 \newblock Metode white box dan black box testing.
-
-\bibitem[Soeseno, 1991]{soeseno1991}
-Soeseno, S. (1991).
-\newblock {\em Bertanam Aren}.
-\newblock Penebar Swadaya. Jakarta.
 
 \bibitem[Tambunan, 2012]{tambunan2012peluang}
 Tambunan, T.~T. (2012).
