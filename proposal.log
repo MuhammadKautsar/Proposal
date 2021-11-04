@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  20 OCT 2021 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  5 NOV 2021 01:23
 entering extended mode
 **"e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex"
 (e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex
@@ -791,15 +791,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 12.
+(hyperref)                removing `\uppercase' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 17.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 20.
+(hyperref)                removing `\uppercase' on input line 19.
 
 [3
 
@@ -809,59 +805,62 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 25.
+(hyperref)                removing `\uppercase' on input line 22.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 27.
 
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 39.
+(hyperref)                removing `\uppercase' on input line 41.
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 45.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 47.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<gambar/laravel-livewire.jpg, id=314, 863.225pt x 444.66125pt>
+<gambar/laravel-livewire.jpg, id=306, 863.225pt x 444.66125pt>
 File: gambar/laravel-livewire.jpg Graphic file (type jpg)
 <use gambar/laravel-livewire.jpg>
-Package pdftex.def Info: gambar/laravel-livewire.jpg  used on input line 53.
+Package pdftex.def Info: gambar/laravel-livewire.jpg  used on input line 55.
 (pdftex.def)             Requested size: 298.74814pt x 170.71677pt.
+ [5]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 60.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 58.
+(hyperref)                removing `\uppercase' on input line 71.
 
-[5 <./gambar/laravel-livewire.jpg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 63.
-
+[6 <./gambar/laravel-livewire.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 68.
-
-[6]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 80.
+(hyperref)                removing `\uppercase' on input line 74.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 83.
+(hyperref)                removing `\uppercase' on input line 86.
 
-<gambar/alur_proses_scrum.png, id=347, 370.38374pt x 221.628pt>
-File: gambar/alur_proses_scrum.png Graphic file (type png)
-<use gambar/alur_proses_scrum.png>
-Package pdftex.def Info: gambar/alur_proses_scrum.png  used on input line 88.
-(pdftex.def)             Requested size: 355.66608pt x 227.62332pt.
 [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 107.
+(hyperref)                removing `\uppercase' on input line 89.
 
-[8 <./gambar/alur_proses_scrum.png>]
+<gambar/scrum.png, id=355, 438.8897pt x 237.13594pt>
+File: gambar/scrum.png Graphic file (type png)
+<use gambar/scrum.png>
+Package pdftex.def Info: gambar/scrum.png  used on input line 94.
+(pdftex.def)             Requested size: 355.66614pt x 199.17473pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 119.
+(hyperref)                removing `\uppercase' on input line 101.
+
+[8 <./gambar/scrum.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 120.
 
 [9]) [10]
 \openout2 = `bab3.aux'.
@@ -896,7 +895,12 @@ File: gambar/alur_kerja_sistem.png Graphic file (type png)
 <use gambar/alur_kerja_sistem.png>
 Package pdftex.def Info: gambar/alur_kerja_sistem.png  used on input line 61.
 (pdftex.def)             Requested size: 398.3493pt x 284.525pt.
- [13 <./gambar/alur_kerja_sistem.png>]) [14] (proposal.bbl [15
+ [13 <./gambar/alur_kerja_sistem.png>]) [14] (proposal.bbl
+Overfull \hbox (30.17004pt too wide) in paragraph at lines 48--54
+\T1/ptm/m/it/12 pengertian-[]e-[]commerce-[]dan-[]contohnya-[]komponen-[]jenis-[]dan-[]manfaat-[]e-[]commerce /
+ []
+
+[15
 
 
 
@@ -905,17 +909,17 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D40B687D6969545A9822D33306D76AF1;4694.
  ) 
 Here is how much of TeX's memory you used:
- 15914 strings out of 478927
- 238753 string characters out of 2862395
- 585879 words of memory out of 3000000
- 33252 multiletter control sequences out of 15000+600000
+ 15928 strings out of 478927
+ 239093 string characters out of 2862395
+ 585927 words of memory out of 3000000
+ 33258 multiletter control sequences out of 15000+600000
  427910 words of font info for 58 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
- 72i,11n,80p,1062b,820s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,80p,1176b,814s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (23 pages, 571979 bytes).
+Output written on proposal.pdf (23 pages, 544987 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,36 +1,38 @@
 \begin{thebibliography}{}
 
-\bibitem[Aminudin, 2015]{aminudin2015}
-Aminudin (2015).
-\newblock {\em Cara Efektif Belajar Framework Laravel}.
-\newblock Lokomedia, Yogyakarta.
+\bibitem[Abdul, 2014]{abdul2014pengenalan}
+Abdul, K. (2014).
+\newblock Pengenalan sistem informasi edisi revisi.
+\newblock {\em Andi Offest, Yogyakarta}.
 
-\bibitem[Bangor dkk., 2008]{bangor2008}
-Bangor, A., Kortum, P, T., dan Millner, J, T. (2008).
-\newblock An empirical evaluation of the system usability scale.
-\newblock {\em International Journal of Human-Computer Interaction},
-  24:574--594.
+\bibitem[Alviani, 2015]{alviani2015bertanam}
+Alviani, P. (2015).
+\newblock {\em Bertanam hidroponik untuk pemula}.
+\newblock Bibit Publisher.
 
-\bibitem[Fathansyah, 2012]{fathansyah2012}
-Fathansyah (2012).
-\newblock {\em Basis Data}.
-\newblock Bandung: Informatika Bandung.
+\bibitem[Dhika dkk., 2015]{dhika2015perancangan}
+Dhika, H., Lukman, L., dan Fitriansyah, A. (2015).
+\newblock Perancangan web jasa pengiriman barang.
+\newblock {\em SEMNASTEKNOMEDIA ONLINE}, 3(1):4--7.
 
-\bibitem[Fielding, 2000]{fielding2000architectural}
-Fielding, R.~T. (2000).
-\newblock {\em Architectural styles and the design of network-based software
-  architectures}.
-\newblock University of California, Irvine.
+\bibitem[Fernando dkk., 2018]{fernando2018rancang}
+Fernando, D., Anharudin, A., dan Fadli, F. (2018).
+\newblock Rancang bangun aplikasi e-portofolio hasil karya mahasiswa unsera
+  menggunakan metode scrum.
+\newblock {\em JSiI (Jurnal Sistem Informasi)}, 5(1).
 
-\bibitem[Finstad, 2006]{finstad2006}
-Finstad, K. (2006).
-\newblock The system usability scale and non-native english speakers.
-\newblock {\em Journal of Usability Studies}, 4(1):185--188.
+\bibitem[Ginanjar, 2014]{ginanjar2014rahasia}
+Ginanjar, T. (2014).
+\newblock {\em Rahasia Membangun Website Toko Online Berpenghasilan Jutaan
+  Rupiah}.
+\newblock Iffahmedia.
 
-\bibitem[Hakim dan Uus, 2004]{hakim2004}
-Hakim, L. dan Uus, M. (2004).
-\newblock {\em Cara Cerdas Menguasai Layout, Desain dan Aplikasi Web}.
-\newblock Jakarta: PT Elex Media Komputindo.
+\bibitem[Hadinata dan Nasir, 2017]{hadinata2017implementasi}
+Hadinata, N. dan Nasir, M. (2017).
+\newblock Implementasi metode scrum dalam rancang bangun sistem informasi
+  penjualan (study kasus: Penjualan sperpart kendaraan).
+\newblock {\em JURNAL ILMIAH BETRIK: Besemah Teknologi Informasi dan Komputer},
+  8(01):22--27.
 
 \bibitem[Hamida, 2017]{hamida2017analisis}
 Hamida, I. (2017).
@@ -42,31 +44,30 @@ Hardilawati, Wan, l. (2020).
 \newblock Strategi bertahan umkm di tengah pandemi covid-19.
 \newblock {\em Jurnal Akuntansi dan Ekonomika}, 10(1):89--98.
 
-\bibitem[Hartono dkk., 2012]{hartono2012pengaruh}
-Hartono, H., Hutomo, K., dan Mayangsari, M. (2012).
-\newblock Pengaruh strategi pemasaran terhadap peningkatan penjualan pada
-  perusahaan” dengan menetapkan alumni dan mahasiswa universitas bina
-  nusantara sebagai objek penelitian.
-\newblock {\em Binus Business Review}, 3(2):882--897.
+\bibitem[IdCloudHost, 2021]{idcloudhost2021}
+IdCloudHost (2021).
+\newblock Pengertian e-commerce dan contohnya, komponen, jenis, dan manfaat
+  e-commerce.
+\newblock
+  {\url{https://idcloudhost.com/pengertian-e-commerce-dan-contohnya-komponen-jenis-dan-manfaat-e-commerce/#Apa_Itu_E-Commerce},
+  Diakses pada tanggal 4 November 2021}.
 
-\bibitem[Herwibowo dan Budiana, 2014]{herwibowo2014hidroponik}
-Herwibowo, K. dan Budiana, N. (2014).
-\newblock {\em Hidroponik Sayuran}.
-\newblock Penebar Swadaya Grup.
-
-\bibitem[Iskandaria, 2012]{iskandaria2012}
-Iskandaria (2012).
-\newblock Contoh pengujian black box.
-
-\bibitem[Istiqomah, 2006]{istiqomah2006menanam}
-Istiqomah, S. (2006).
-\newblock {\em Menanam hidroponik}.
-\newblock Ganeca Exact.
+\bibitem[Iqbal, 2016]{iqbal2016simpel}
+Iqbal, M. (2016).
+\newblock {\em Simpel Hidroponik}.
+\newblock Lily Publisher.
 
 \bibitem[Kasman, 2015]{kasman2015}
 Kasman, A.~D. (2015).
 \newblock {\em Trik Kolaborasi Android dengan PHP \& MySQL}.
 \newblock Yogyakarta: Lokomedia.
+
+\bibitem[Kortum dan Sorber, 2015]{kortum2015measuring}
+Kortum, P. dan Sorber, M. (2015).
+\newblock Measuring the usability of mobile applications for phones and
+  tablets.
+\newblock {\em International Journal of Human-Computer Interaction},
+  31(8):518--529.
 
 \bibitem[KrishaWeb, 2021]{krishaweb2021}
 KrishaWeb (2021).
@@ -74,57 +75,84 @@ KrishaWeb (2021).
 \newblock {\url{https://www.krishaweb.com/laravel-livewire}, Diakses pada
   tanggal 22 September 2021}.
 
-\bibitem[Pressman, 2010]{pressman2010}
-Pressman, R.~S. (2010).
-\newblock {\em Software Engineering : a practitioner’s approach}.
-\newblock New York: McGraw-Hill.
+\bibitem[Mustaqbal dkk., 2015]{mustaqbal2015pengujian}
+Mustaqbal, M.~S., Firdaus, R.~F., dan Rahmadi, H. (2015).
+\newblock Pengujian aplikasi menggunakan black box testing boundary value
+  analysis (studi kasus: Aplikasi prediksi kelulusan smnptn).
+\newblock {\em Jurnal Ilmiah Teknologi Infomasi Terapan}, 1(3).
+
+\bibitem[Orlando, 2017]{orlando2017aplikasi}
+Orlando, E. (2017).
+\newblock Aplikasi pengajuan cuti pada human resource management menggunakan
+  php dan mysql (studi kasus pada pt. intiloka).
+\newblock {\em Jurnal Ilmiah Komputasi}, 16(3):275--284.
+
+\bibitem[Prabowo, 2016]{prabowo2016teknologi}
+Prabowo, D. (2016).
+\newblock Teknologi web service sebagai pengganti pengunaan ip publik pada alat
+  pengendali lampu jarak jauh.
+\newblock {\em Data Manajemen dan Teknologi Informasi (DASI)}, 17(3):62--68.
+
+\bibitem[Pradiani, 2017]{pradiani2017pengaruh}
+Pradiani, T. (2017).
+\newblock Pengaruh sistem pemasaran digital marketing terhadap peningkatan
+  volume penjualan hasil industri rumahan.
+\newblock {\em Jurnal Ilmiah Bisnis Dan Ekonomi Asia}, 11(2):46--53.
+
+\bibitem[Prastika dan Purnomo, 2014]{prastika2014pengaruh}
+Prastika, N.~E. dan Purnomo, D.~E. (2014).
+\newblock Pengaruh sistem informasi akuntansi terhadap kinerja perusahaan pada
+  usaha mikro kecil dan menengah (umkm) di kota pekalongan.
+\newblock {\em Jurnal LITBANG Kota Pekalongan}, 7.
+
+\bibitem[Prayitno dkk., 2017]{prayitno2017sistem}
+Prayitno, W.~A., Muttaqin, A., dan Syauqy, D. (2017).
+\newblock Sistem monitoring suhu, kelembaban, dan pengendali penyiraman tanaman
+  hidroponik menggunakan blynk android.
+\newblock {\em Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer
+  e-ISSN}, 2548:964X.
 
 \bibitem[Priyadi, 2014]{priyadi2014}
 Priyadi, Y. (2014).
 \newblock {\em Kolaborasi SQL dan ERD Dalam Implementasi Database}.
 \newblock Yogyakarta : C.V Andi Offset.
 
-\bibitem[Rosliani dan Sumarni, 2005]{rosliani2005budidaya}
-Rosliani, R. dan Sumarni, N. (2005).
-\newblock {\em Budidaya Tanaman Sayuran dengan sistem hidroponik}.
-\newblock Balai Penelitian Tanaman Sayuran.
+\bibitem[Pudjoatmodjo dan Wijaya, 2016]{pudjoatmodjo2016tes}
+Pudjoatmodjo, B. dan Wijaya, R. (2016).
+\newblock Tes kegunaan (usabilty testing) pada aplikasi kepegawaian dengan
+  menggunakan system usabilty scale (studi kasus: Dinas pertanian kabupaten
+  bandung).
+\newblock {\em SEMNASTEKNOMEDIA ONLINE}, 4(1):2--9.
 
-\bibitem[Saputra, 2013]{saputra2013}
-Saputra, L. (2013).
-\newblock {\em Pengantar Kebutuhan Dasar Manusia}.
-\newblock Jakarta: Binarupa Aksara.
+\bibitem[Saputra dan Fathoni~Aji, 2018]{saputra2018}
+Saputra, D. dan Fathoni~Aji, R. (2018).
+\newblock Analisis perbandingan performa web service rest menggunakan framework
+  laravel, django dan ruby on rails untuk akses data dengan aplikasi mobile
+  (studi kasus: Portal e-kampus stt indonesia tanjungpinang).
+\newblock {\em Bangkit Indonesia}, 2(8):18.
 
-\bibitem[Sartika dan Soejoedono, 2002]{sartika2002ekonomi}
-Sartika, D. P.~T. dan Soejoedono, R. (2002).
-\newblock {\em Ekonomi Skala Kecil/Menengah \& Koperasi}.
-\newblock Jakarta: PT. Ghalia Indonesia.
+\bibitem[Sebastian, 2021]{sebastian2021perancanagan}
+Sebastian, E. (2021).
+\newblock {\em Perancanagan Sistem Informasi Stok Kontainer Dengan Metode Scrum
+  Pada PT Putra Batam Jasa Mandiri Utama}.
+\newblock PhD thesis, Prodi Sistem Informasi.
 
-\bibitem[Shihab, 2011]{shihab2011}
-Shihab (2011).
-\newblock Metode white box dan black box testing.
+\bibitem[Thomas, 2015]{thomas2015use}
+Thomas, N. (2015).
+\newblock How to use the system usability scale (sus) to evaluate the usability
+  of your website.
+\newblock {\em Usability Geek}, 4.
 
-\bibitem[Tambunan, 2012]{tambunan2012peluang}
-Tambunan, T.~T. (2012).
-\newblock Peluang, tantangan dan ancaman bagi umkm indonesia dalam era cafta
-  dan me-asean 015.
-\newblock In {\em Prosiding Seminar \& Konferensi Nasional Manajemen Bisnis:
-  memberdayakan UMKM dalam meninkatkan kesejahteraan masyarakat menghadapi
-  persaingan global}, pages 1--14. Badan Penerbit Universitas Muria Kudus.
-
-\bibitem[Tarigan dan Sanjaya, 2013]{tarigan2013creative}
-Tarigan, J. dan Sanjaya, R. (2013).
-\newblock {\em Creative digital marketing}.
-\newblock Elex Media Komputindo.
+\bibitem[Wahyudi, 2018]{wahyudi2018analisis}
+Wahyudi, A. (2018).
+\newblock Analisis pengembangan perpustakaan digital bebasis android dengan
+  metode scrum.
+\newblock {\em Faktor Exacta}, 11(2):128--134.
 
 \bibitem[Wikipedia, 2021]{wikipedia2021}
 Wikipedia (2021).
 \newblock Pemasaran digital.
 \newblock {\url{https://id.wikipedia.org/wiki/Pemasaran_digital}, Diakses pada
   tanggal 18 September 2021}.
-
-\bibitem[Yuhefizar, 2013]{yuhefizar2013}
-Yuhefizar (2013).
-\newblock {\em Cara Mudah \& Murah Membangun \& Mengelola Website}.
-\newblock Yogyakarta: Graha Ilmu.
 
 \end{thebibliography}

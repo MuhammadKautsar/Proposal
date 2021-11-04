@@ -20,9 +20,9 @@
 \contentsline {section}{\numberline {2.6}\uppercase {Laravel Livewire}}{5}{section.2.6}%
 \contentsline {section}{\numberline {2.7}\uppercase {MySQL}}{6}{section.2.7}%
 \contentsline {section}{\numberline {2.8}\uppercase {Web Service}}{6}{section.2.8}%
-\contentsline {section}{\numberline {2.9}\uppercase {REST}}{6}{section.2.9}%
+\contentsline {section}{\numberline {2.9}\uppercase {REST}}{7}{section.2.9}%
 \contentsline {section}{\numberline {2.10}\uppercase {Virtual Private Server (VPS)}}{7}{section.2.10}%
-\contentsline {section}{\numberline {2.11}\uppercase {Scrum}}{7}{section.2.11}%
+\contentsline {section}{\numberline {2.11}\uppercase {Scrum}}{8}{section.2.11}%
 \contentsline {section}{\numberline {2.12}\uppercase {Black Box Testing}}{9}{section.2.12}%
 \contentsline {section}{\numberline {2.13}\uppercase {System Usability Scale (SUS)}}{9}{section.2.13}%
 \contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{11}{chapter.3}%

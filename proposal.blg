@@ -15,44 +15,44 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: bab3.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Database file #1: daftar-pustaka.bib
-You've used 24 entries,
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            594 strings with 6746 characters,
-and the built_in function-call counts, 7290 in all, are:
-= -- 703
-> -- 220
-< -- 23
-+ -- 70
-- -- 66
-* -- 512
-:= -- 1332
-add.period$ -- 71
-call.type$ -- 24
-change.case$ -- 138
-chr.to.int$ -- 24
-cite$ -- 24
-duplicate$ -- 327
-empty$ -- 554
-format.name$ -- 100
-if$ -- 1416
+            608 strings with 8081 characters,
+and the built_in function-call counts, 8244 in all, are:
+= -- 817
+> -- 256
+< -- 22
++ -- 78
+- -- 78
+* -- 643
+:= -- 1513
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 162
+chr.to.int$ -- 26
+cite$ -- 26
+duplicate$ -- 343
+empty$ -- 602
+format.name$ -- 114
+if$ -- 1575
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 33
-newline$ -- 121
-num.names$ -- 72
-pop$ -- 161
+missing$ -- 26
+newline$ -- 133
+num.names$ -- 78
+pop$ -- 124
 preamble$ -- 1
-purify$ -- 153
+purify$ -- 169
 quote$ -- 0
-skip$ -- 245
+skip$ -- 274
 stack$ -- 0
-substring$ -- 405
-swap$ -- 25
-text.length$ -- 1
+substring$ -- 507
+swap$ -- 23
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 146
 warning$ -- 0
-while$ -- 59
+while$ -- 72
 width$ -- 0
-write$ -- 293
+write$ -- 331

@@ -285,7 +285,7 @@
        {\normalfont
         Oleh:\\
 		\vspace{1.0cm}
-        \MakeUppercase{\normalfont\bfseries\underline \@fullname}\\
+        \MakeUppercase{\normalfont\bfseries\underline{\@fullname}}\\
         \MakeUppercase{\normalfont\bfseries \@idnum}}\\
 		\vspace{2cm}
 		\vfill
@@ -300,44 +300,6 @@
          \MakeUppercase{\normalfont\bfseries\@yearsubmit}}\\
       \end{singlespace}
     \end{center}
-}
-
-%------------------------------------------------------------
-%Approval Page
-%------------------------------------------------------------
-\def\cover{%
-	% it's me!
-	\newgeometry{a4paper,left=4cm,right=2.7cm,top=3cm,bottom=2.5cm}
-
-	\thispagestyle{empty}%
-	\pagenumbering{roman}
-	\setcounter{page}{1}
-	\begin{center}
-		\begin{singlespace}
-			\fontsize{14pt}{16pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
-			\vspace{2.5cm}
-			\MakeUppercase{\large{\bfseries{Proposal}}}\\ %it's me!
-			\vspace{1.0cm}
-			\normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna pelaksanaan penelitian Tugas Akhir\\} %it's me!
-			\vspace{1.0cm}
-			{\normalfont
-				Oleh:\\
-				\vspace{1.0cm}
-				\MakeUppercase{\normalfont\bfseries\underline \@fullname}\\
-				\MakeUppercase{\normalfont\bfseries \@idnum}}\\
-			\vspace{2cm}
-			\vfill
-			\includegraphics[width=0.3\textwidth]{gambar/logo_unsyiah.png}
-			\vfill
-			\vspace{2cm}
-			{\normalfont
-				\MakeUppercase{\normalfont\bfseries Jurusan \@dept}\\
-				\MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
-				\MakeUppercase{\normalfont\bfseries\@city}\\
-				%\vspace{0.5cm}
-				\MakeUppercase{\normalfont\bfseries\@yearsubmit}}\\
-		\end{singlespace}
-	\end{center}
 }
 
 %------------------------------------------------------------
