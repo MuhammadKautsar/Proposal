@@ -348,7 +348,7 @@
 			% Tanpa mengetahui dekan
 			Mengetahui:\\
 			\begin{singlespace}
-			Ketua Jurusan Informatika FMIPA\\ Universitas Syiah Kuala,\\
+			Koordinator Program Studi Informatika FMIPA\\ Universitas Syiah Kuala,\\
 			\vspace{2.0cm}
 			 \underline{\@kajur}\\
 		      NIP. \@kajurnip 

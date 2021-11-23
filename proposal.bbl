@@ -8,7 +8,7 @@ Abdul, K. (2014).
 \bibitem[Alviani, 2015]{alviani2015bertanam}
 Alviani, P. (2015).
 \newblock {\em Bertanam hidroponik untuk pemula}.
-\newblock Bibit Publisher.
+\newblock Jakarta: Bibit Publisher.
 
 \bibitem[Dhika dkk., 2015]{dhika2015perancangan}
 Dhika, H., Lukman, L., dan Fitriansyah, A. (2015).
@@ -20,6 +20,11 @@ Fernando, D., Anharudin, A., dan Fadli, F. (2018).
 \newblock Rancang bangun aplikasi e-portofolio hasil karya mahasiswa unsera
   menggunakan metode scrum.
 \newblock {\em JSiI (Jurnal Sistem Informasi)}, 5(1).
+
+\bibitem[Finstad, 2010]{finstad2010usability}
+Finstad, K. (2010).
+\newblock The usability metric for user experience.
+\newblock {\em Interacting with Computers}, 22(5):323--327.
 
 \bibitem[Ginanjar, 2014]{ginanjar2014rahasia}
 Ginanjar, T. (2014).
@@ -44,42 +49,33 @@ Hardilawati, Wan, l. (2020).
 \newblock Strategi bertahan umkm di tengah pandemi covid-19.
 \newblock {\em Jurnal Akuntansi dan Ekonomika}, 10(1):89--98.
 
-\bibitem[IdCloudHost, 2021]{idcloudhost2021}
-IdCloudHost (2021).
-\newblock Pengertian e-commerce dan contohnya, komponen, jenis, dan manfaat
-  e-commerce.
-\newblock
-  {\url{https://idcloudhost.com/pengertian-e-commerce-dan-contohnya-komponen-jenis-dan-manfaat-e-commerce/#Apa_Itu_E-Commerce},
-  Diakses pada tanggal 4 November 2021}.
-
 \bibitem[Iqbal, 2016]{iqbal2016simpel}
 Iqbal, M. (2016).
 \newblock {\em Simpel Hidroponik}.
-\newblock Lily Publisher.
+\newblock Yogyakarta: Lily Publisher.
 
 \bibitem[Kasman, 2015]{kasman2015}
 Kasman, A.~D. (2015).
 \newblock {\em Trik Kolaborasi Android dengan PHP \& MySQL}.
 \newblock Yogyakarta: Lokomedia.
 
-\bibitem[Kortum dan Sorber, 2015]{kortum2015measuring}
-Kortum, P. dan Sorber, M. (2015).
-\newblock Measuring the usability of mobile applications for phones and
-  tablets.
-\newblock {\em International Journal of Human-Computer Interaction},
-  31(8):518--529.
-
-\bibitem[KrishaWeb, 2021]{krishaweb2021}
-KrishaWeb (2021).
-\newblock Laravel livewire: A full-stack framework for laravel.
-\newblock {\url{https://www.krishaweb.com/laravel-livewire}, Diakses pada
-  tanggal 22 September 2021}.
+\bibitem[Livewire, 2021]{livewire2021}
+Livewire (2021).
+\newblock Laravel livewire.
+\newblock {\url{https://laravel-livewire.com}, Diakses pada tanggal 22 November
+  2021}.
 
 \bibitem[Mustaqbal dkk., 2015]{mustaqbal2015pengujian}
 Mustaqbal, M.~S., Firdaus, R.~F., dan Rahmadi, H. (2015).
 \newblock Pengujian aplikasi menggunakan black box testing boundary value
   analysis (studi kasus: Aplikasi prediksi kelulusan smnptn).
 \newblock {\em Jurnal Ilmiah Teknologi Infomasi Terapan}, 1(3).
+
+\bibitem[Nugraha dan Setiawan, 2016]{nugraha2016perancangan}
+Nugraha, S.~A. dan Setiawan, R. (2016).
+\newblock Perancangan sistem informasi pengolahan administrasi keuangan sekolah
+  menengah pertama islam terpadu assalam garut.
+\newblock {\em Jurnal Algoritma}, 13(2):320--332.
 
 \bibitem[Orlando, 2017]{orlando2017aplikasi}
 Orlando, E. (2017).
@@ -92,6 +88,11 @@ Prabowo, D. (2016).
 \newblock Teknologi web service sebagai pengganti pengunaan ip publik pada alat
   pengendali lampu jarak jauh.
 \newblock {\em Data Manajemen dan Teknologi Informasi (DASI)}, 17(3):62--68.
+
+\bibitem[Pradana, 2015]{pradana2015klasifikasi}
+Pradana, M. (2015).
+\newblock Klasifikasi jenis-jenis bisnis e-commerce di indonesia.
+\newblock {\em Neo-Bis}, 9(2):32--40.
 
 \bibitem[Pradiani, 2017]{pradiani2017pengaruh}
 Pradiani, T. (2017).
@@ -117,13 +118,6 @@ Priyadi, Y. (2014).
 \newblock {\em Kolaborasi SQL dan ERD Dalam Implementasi Database}.
 \newblock Yogyakarta : C.V Andi Offset.
 
-\bibitem[Pudjoatmodjo dan Wijaya, 2016]{pudjoatmodjo2016tes}
-Pudjoatmodjo, B. dan Wijaya, R. (2016).
-\newblock Tes kegunaan (usabilty testing) pada aplikasi kepegawaian dengan
-  menggunakan system usabilty scale (studi kasus: Dinas pertanian kabupaten
-  bandung).
-\newblock {\em SEMNASTEKNOMEDIA ONLINE}, 4(1):2--9.
-
 \bibitem[Saputra dan Fathoni~Aji, 2018]{saputra2018}
 Saputra, D. dan Fathoni~Aji, R. (2018).
 \newblock Analisis perbandingan performa web service rest menggunakan framework
@@ -131,17 +125,21 @@ Saputra, D. dan Fathoni~Aji, R. (2018).
   (studi kasus: Portal e-kampus stt indonesia tanjungpinang).
 \newblock {\em Bangkit Indonesia}, 2(8):18.
 
+\bibitem[Saputra, 2013]{saputra2013}
+Saputra, L. (2013).
+\newblock {\em Pengantar Kebutuhan Dasar Manusia}.
+\newblock Jakarta: Binarupa Aksara.
+
 \bibitem[Sebastian, 2021]{sebastian2021perancanagan}
 Sebastian, E. (2021).
 \newblock {\em Perancanagan Sistem Informasi Stok Kontainer Dengan Metode Scrum
   Pada PT Putra Batam Jasa Mandiri Utama}.
 \newblock PhD thesis, Prodi Sistem Informasi.
 
-\bibitem[Thomas, 2015]{thomas2015use}
-Thomas, N. (2015).
-\newblock How to use the system usability scale (sus) to evaluate the usability
-  of your website.
-\newblock {\em Usability Geek}, 4.
+\bibitem[Tarigan dan Sanjaya, 2013]{tarigan2013creative}
+Tarigan, J. dan Sanjaya, R. (2013).
+\newblock {\em Creative digital marketing}.
+\newblock Jakarta: Elex Media Komputindo.
 
 \bibitem[Wahyudi, 2018]{wahyudi2018analisis}
 Wahyudi, A. (2018).
@@ -149,10 +147,14 @@ Wahyudi, A. (2018).
   metode scrum.
 \newblock {\em Faktor Exacta}, 11(2):128--134.
 
-\bibitem[Wikipedia, 2021]{wikipedia2021}
-Wikipedia (2021).
-\newblock Pemasaran digital.
-\newblock {\url{https://id.wikipedia.org/wiki/Pemasaran_digital}, Diakses pada
-  tanggal 18 September 2021}.
+\bibitem[Wahyuningrum, 2021]{wahyuningrum2021buku}
+Wahyuningrum, T. (2021).
+\newblock {\em Buku Referensi Mengukur Usability Perangkat Lunak}.
+\newblock Yogyakarta: Deepublish.
+
+\bibitem[Yuhefizar, 2013]{yuhefizar2013}
+Yuhefizar (2013).
+\newblock {\em Cara Mudah \& Murah Membangun \& Mengelola Website}.
+\newblock Yogyakarta: Graha Ilmu.
 
 \end{thebibliography}
