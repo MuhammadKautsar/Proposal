@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  23 NOV 2021 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  17 DEC 2021 17:01
 entering extended mode
 **"e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex"
 (e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex
@@ -696,7 +696,7 @@ Package pdftex.def Info: gambar/logo_unsyiah.png  used on input line 176.
 \openout2 = `kata-pengantar.aux'.
 
  (kata-pengantar.tex)
-Overfull \hbox (8.03398pt too wide) in paragraph at lines 22--187
+Overfull \hbox (6.38956pt too wide) in paragraph at lines 22--187
 [][] 
  []
 
@@ -813,53 +813,53 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 67.
+(hyperref)                removing `\uppercase' on input line 56.
 
 [7]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 73.
- (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 68.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 74.
+(C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 86.
+(hyperref)                removing `\uppercase' on input line 87.
 
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 97.
+(hyperref)                removing `\uppercase' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 102.
+(hyperref)                removing `\uppercase' on input line 103.
 
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 114.
+(hyperref)                removing `\uppercase' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 117.
+(hyperref)                removing `\uppercase' on input line 118.
 
-<gambar/scrum.png, id=370, 438.8897pt x 237.13594pt>
+<gambar/scrum.png, id=374, 438.8897pt x 237.13594pt>
 File: gambar/scrum.png Graphic file (type png)
 <use gambar/scrum.png>
-Package pdftex.def Info: gambar/scrum.png  used on input line 124.
+Package pdftex.def Info: gambar/scrum.png  used on input line 125.
 (pdftex.def)             Requested size: 355.66614pt x 199.17473pt.
 [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 131.
+(hyperref)                removing `\uppercase' on input line 132.
 
 [11 <./gambar/scrum.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 150.
+(hyperref)                removing `\uppercase' on input line 151.
 
 ) [12]
 \openout2 = `bab3.aux'.
@@ -882,42 +882,54 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 61.
 
-<gambar/flowchart_proposal.png, id=424, 342.27875pt x 522.95375pt>
+<gambar/flowchart_proposal.png, id=428, 342.27875pt x 522.95375pt>
 File: gambar/flowchart_proposal.png Graphic file (type png)
 <use gambar/flowchart_proposal.png>
 Package pdftex.def Info: gambar/flowchart_proposal.png  used on input line 66.
-(pdftex.def)             Requested size: 227.62816pt x 341.44002pt.
+(pdftex.def)             Requested size: 227.62816pt x 312.98468pt.
 [13
 
 
 
 
 ] [14 <./gambar/flowchart_proposal.png>]
-<gambar/alur_kerja_sistem.png, id=437, 684.5575pt x 503.8825pt>
+<gambar/use_case_diagram.png, id=442, 653.44125pt x 654.445pt>
+File: gambar/use_case_diagram.png Graphic file (type png)
+<use gambar/use_case_diagram.png>
+Package pdftex.def Info: gambar/use_case_diagram.png  used on input line 110.
+(pdftex.def)             Requested size: 398.33934pt x 398.34209pt.
+ [15]
+<gambar/bisnis_diagram.png, id=450, 432.61626pt x 422.57875pt>
+File: gambar/bisnis_diagram.png Graphic file (type png)
+<use gambar/bisnis_diagram.png>
+Package pdftex.def Info: gambar/bisnis_diagram.png  used on input line 120.
+(pdftex.def)             Requested size: 398.35506pt x 284.53195pt.
+ [16 <./gambar/use_case_diagram.png>]
+<gambar/alur_kerja_sistem.png, id=457, 684.5575pt x 503.8825pt>
 File: gambar/alur_kerja_sistem.png Graphic file (type png)
 <use gambar/alur_kerja_sistem.png>
-Package pdftex.def Info: gambar/alur_kerja_sistem.png  used on input line 87.
+Package pdftex.def Info: gambar/alur_kerja_sistem.png  used on input line 129.
 (pdftex.def)             Requested size: 398.3493pt x 284.525pt.
- [15 <./gambar/alur_kerja_sistem.png>]) [16] (proposal.bbl [17
+ [17 <./gambar/bisnis_diagram.png> <./gambar/alur_kerja_sistem.png>]) [18] (proposal.bbl [19
 
 
 
-]) [18] (proposal.aux (kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux))
+]) [20] (proposal.aux (kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux))
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 48E9215270370134EEB76FC828441FCA;5084.
+(rerunfilecheck)             Checksum: 5DD45303F8E58ACCCFB005E140B47FAF;5084.
  ) 
 Here is how much of TeX's memory you used:
- 15933 strings out of 478927
- 238907 string characters out of 2862395
- 587895 words of memory out of 3000000
- 33249 multiletter control sequences out of 15000+600000
+ 15963 strings out of 478927
+ 239655 string characters out of 2862395
+ 588997 words of memory out of 3000000
+ 33271 multiletter control sequences out of 15000+600000
  427910 words of font info for 58 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
- 72i,12n,80p,1009b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,80p,1018b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (24 pages, 553558 bytes).
+Output written on proposal.pdf (26 pages, 602194 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 557 PDF objects out of 1000 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -31,8 +31,8 @@
 \contentsline {section}{\numberline {3.3}\uppercase {ALAT DAN BAHAN}}{13}{section.3.3}%
 \contentsline {section}{\numberline {3.4}\uppercase {METODE PENELITIAN}}{14}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{14}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Analisis Kebutuhan}{14}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{15}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Implementasi}{15}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Pengujian}{16}{subsection.3.4.5}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{18}{chapter*.10}%
+\contentsline {subsection}{\numberline {3.4.2}Analisis Kebutuhan}{15}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{16}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Implementasi}{18}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Pengujian}{18}{subsection.3.4.5}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{20}{chapter*.12}%
