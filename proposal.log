@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  17 DEC 2021 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.16)  23 APR 2022 21:29
 entering extended mode
 **"e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex"
 (e:/Document/SKRIPSI/TUGAS AKHIR/NEW/Proposal/proposal.tex
@@ -536,7 +536,38 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count315
 \l__pdf_internal_box=\box67
-) (proposal.aux (kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux))
+) (proposal.aux (abstrak-indonesia.aux) (abstrak-english.aux) (kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux) (bab4.aux
+
+LaTeX Warning: Label `use_case_diagram' multiply defined.
+
+
+LaTeX Warning: Label `bisnis_diagram' multiply defined.
+
+
+LaTeX Warning: Label `homepage' multiply defined.
+
+
+LaTeX Warning: Label `login' multiply defined.
+
+
+LaTeX Warning: Label `lupa_password' multiply defined.
+
+
+LaTeX Warning: Label `tab:jadwal' multiply defined.
+
+
+LaTeX Warning: Label `tab:jadwal' multiply defined.
+
+
+LaTeX Warning: Label `tab:jadwal' multiply defined.
+
+
+LaTeX Warning: Label `tab:jadwal' multiply defined.
+
+
+LaTeX Warning: Label `tab:jadwal' multiply defined.
+
+) (bab5.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
@@ -676,7 +707,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 176
 (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<gambar/logo_unsyiah.png, id=147, 264.99pt x 264.99pt>
+<gambar/logo_unsyiah.png, id=203, 264.99pt x 264.99pt>
 File: gambar/logo_unsyiah.png Graphic file (type png)
 <use gambar/logo_unsyiah.png>
 Package pdftex.def Info: gambar/logo_unsyiah.png  used on input line 176.
@@ -693,6 +724,22 @@ Package pdftex.def Info: gambar/logo_unsyiah.png  used on input line 176.
 {C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./gambar/logo_unsyiah.png>] [2
 
 ]
+\openout2 = `abstrak-indonesia.aux'.
+
+ (abstrak-indonesia.tex) [3
+
+
+
+]
+\openout2 = `abstrak-english.aux'.
+
+ (abstrak-english.tex) [4
+
+
+
+
+
+]
 \openout2 = `kata-pengantar.aux'.
 
  (kata-pengantar.tex)
@@ -700,55 +747,57 @@ Overfull \hbox (6.38956pt too wide) in paragraph at lines 22--187
 [][] 
  []
 
-[3
+[5
+
+
 
 
 ] (proposal.toc
-Overfull \hbox (0.50574pt too wide) detected at line 23
+Overfull \hbox (0.50574pt too wide) detected at line 29
 \T1/ptm/m/n/12 2.10. 
  []
 
 
-Overfull \hbox (0.50574pt too wide) detected at line 24
+Overfull \hbox (0.50574pt too wide) detected at line 30
 \T1/ptm/m/n/12 2.11. 
  []
 
 
-Overfull \hbox (0.50574pt too wide) detected at line 25
+Overfull \hbox (0.50574pt too wide) detected at line 31
 \T1/ptm/m/n/12 2.12. 
  []
 
 
-Overfull \hbox (0.50574pt too wide) detected at line 26
+Overfull \hbox (0.50574pt too wide) detected at line 32
 \T1/ptm/m/n/12 2.13. 
  []
 
 
-Overfull \hbox (0.50574pt too wide) detected at line 27
+Overfull \hbox (0.50574pt too wide) detected at line 33
 \T1/ptm/m/n/12 2.14. 
  []
 
-)
+[6
+
+
+
+])
 \tf@toc=\write5
 \openout5 = `proposal.toc'.
 
- [4
-
-
-
-] (proposal.lot)
+ [7] (proposal.lot)
 \tf@lot=\write6
 \openout6 = `proposal.lot'.
 
- [5
+ [8
 
 ] (proposal.lof)
 \tf@lof=\write7
 \openout7 = `proposal.lof'.
 
- [6
+ [9
 
-]
+] [10]
 \openout2 = `daftar-singkatan.aux'.
 
  (daftar-singkatan.tex)
@@ -846,7 +895,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 118.
 
-<gambar/scrum.png, id=374, 438.8897pt x 237.13594pt>
+<gambar/scrum.png, id=550, 438.8897pt x 237.13594pt>
 File: gambar/scrum.png Graphic file (type png)
 <use gambar/scrum.png>
 Package pdftex.def Info: gambar/scrum.png  used on input line 125.
@@ -882,7 +931,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 61.
 
-<gambar/flowchart_proposal.png, id=428, 342.27875pt x 522.95375pt>
+<gambar/flowchart_proposal.png, id=604, 342.27875pt x 522.95375pt>
 File: gambar/flowchart_proposal.png Graphic file (type png)
 <use gambar/flowchart_proposal.png>
 Package pdftex.def Info: gambar/flowchart_proposal.png  used on input line 66.
@@ -893,43 +942,315 @@ Package pdftex.def Info: gambar/flowchart_proposal.png  used on input line 66.
 
 
 ] [14 <./gambar/flowchart_proposal.png>]
-<gambar/use_case_diagram.png, id=442, 653.44125pt x 654.445pt>
+<gambar/use_case_diagram.png, id=617, 653.44125pt x 654.445pt>
 File: gambar/use_case_diagram.png Graphic file (type png)
 <use gambar/use_case_diagram.png>
 Package pdftex.def Info: gambar/use_case_diagram.png  used on input line 110.
 (pdftex.def)             Requested size: 398.33934pt x 398.34209pt.
  [15]
-<gambar/bisnis_diagram.png, id=450, 432.61626pt x 422.57875pt>
+<gambar/bisnis_diagram.png, id=626, 432.61626pt x 422.57875pt>
 File: gambar/bisnis_diagram.png Graphic file (type png)
 <use gambar/bisnis_diagram.png>
 Package pdftex.def Info: gambar/bisnis_diagram.png  used on input line 120.
 (pdftex.def)             Requested size: 398.35506pt x 284.53195pt.
  [16 <./gambar/use_case_diagram.png>]
-<gambar/alur_kerja_sistem.png, id=457, 684.5575pt x 503.8825pt>
+<gambar/alur_kerja_sistem.png, id=633, 684.5575pt x 503.8825pt>
 File: gambar/alur_kerja_sistem.png Graphic file (type png)
 <use gambar/alur_kerja_sistem.png>
 Package pdftex.def Info: gambar/alur_kerja_sistem.png  used on input line 129.
 (pdftex.def)             Requested size: 398.3493pt x 284.525pt.
- [17 <./gambar/bisnis_diagram.png> <./gambar/alur_kerja_sistem.png>]) [18] (proposal.bbl [19
+ [17 <./gambar/bisnis_diagram.png> <./gambar/alur_kerja_sistem.png>]) [18]
+\openout2 = `bab4.aux'.
+
+ (bab4.tex
+BAB IV.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 18.
+
+File: gambar/use_case_diagram.png Graphic file (type png)
+<use gambar/use_case_diagram.png>
+Package pdftex.def Info: gambar/use_case_diagram.png  used on input line 39.
+(pdftex.def)             Requested size: 398.33934pt x 398.34209pt.
+[19
 
 
 
-]) [20] (proposal.aux (kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux))
+
+] [20]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 48.
+
+File: gambar/bisnis_diagram.png Graphic file (type png)
+<use gambar/bisnis_diagram.png>
+Package pdftex.def Info: gambar/bisnis_diagram.png  used on input line 70.
+(pdftex.def)             Requested size: 398.35506pt x 284.53195pt.
+[21] [22]
+<gambar/erd.png, id=673, 1255.69125pt x 1086.0575pt>
+File: gambar/erd.png Graphic file (type png)
+<use gambar/erd.png>
+Package pdftex.def Info: gambar/erd.png  used on input line 88.
+(pdftex.def)             Requested size: 398.32309pt x 284.52263pt.
+ [23 <./gambar/erd.png>] [24]
+<gambar/homepage.png, id=692, 1156.32pt x 650.43pt>
+File: gambar/homepage.png Graphic file (type png)
+<use gambar/homepage.png>
+Package pdftex.def Info: gambar/homepage.png  used on input line 136.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [25 <./gambar/homepage.png>]
+<gambar/login.png, id=701, 1156.32pt x 650.43pt>
+File: gambar/login.png Graphic file (type png)
+<use gambar/login.png>
+Package pdftex.def Info: gambar/login.png  used on input line 145.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/lupa_password.png, id=702, 1156.32pt x 650.43pt>
+File: gambar/lupa_password.png Graphic file (type png)
+<use gambar/lupa_password.png>
+Package pdftex.def Info: gambar/lupa_password.png  used on input line 154.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [26 <./gambar/login.png>]
+<gambar/admin/dashboard_admin.png, id=708, 1156.32pt x 650.43pt>
+File: gambar/admin/dashboard_admin.png Graphic file (type png)
+<use gambar/admin/dashboard_admin.png>
+Package pdftex.def Info: gambar/admin/dashboard_admin.png  used on input line 163.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [27 <./gambar/lupa_password.png>]
+<gambar/admin/produk_admin.png, id=715, 1156.32pt x 650.43pt>
+File: gambar/admin/produk_admin.png Graphic file (type png)
+<use gambar/admin/produk_admin.png>
+Package pdftex.def Info: gambar/admin/produk_admin.png  used on input line 172.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/lihat_produk_admin.png, id=716, 1156.32pt x 650.43pt>
+File: gambar/admin/lihat_produk_admin.png Graphic file (type png)
+<use gambar/admin/lihat_produk_admin.png>
+Package pdftex.def Info: gambar/admin/lihat_produk_admin.png  used on input line 181.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [28 <./gambar/admin/dashboard_admin.png> <./gambar/admin/produk_admin.png>]
+<gambar/admin/pencarian_produk_admin.png, id=723, 1156.32pt x 650.43pt>
+File: gambar/admin/pencarian_produk_admin.png Graphic file (type png)
+<use gambar/admin/pencarian_produk_admin.png>
+Package pdftex.def Info: gambar/admin/pencarian_produk_admin.png  used on input line 188.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/hapus_produk_admin.png, id=724, 1156.32pt x 650.43pt>
+File: gambar/admin/hapus_produk_admin.png Graphic file (type png)
+<use gambar/admin/hapus_produk_admin.png>
+Package pdftex.def Info: gambar/admin/hapus_produk_admin.png  used on input line 195.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [29 <./gambar/admin/lihat_produk_admin.png> <./gambar/admin/pencarian_produk_admin.png>]
+<gambar/admin/pesanan_admin.png, id=731, 1156.32pt x 650.43pt>
+File: gambar/admin/pesanan_admin.png Graphic file (type png)
+<use gambar/admin/pesanan_admin.png>
+Package pdftex.def Info: gambar/admin/pesanan_admin.png  used on input line 204.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [30 <./gambar/admin/hapus_produk_admin.png>]
+<gambar/admin/detail_pesanan.png, id=737, 1156.32pt x 650.43pt>
+File: gambar/admin/detail_pesanan.png Graphic file (type png)
+<use gambar/admin/detail_pesanan.png>
+Package pdftex.def Info: gambar/admin/detail_pesanan.png  used on input line 211.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/filter_pesanan_admin.png, id=738, 1156.32pt x 650.43pt>
+File: gambar/admin/filter_pesanan_admin.png Graphic file (type png)
+<use gambar/admin/filter_pesanan_admin.png>
+Package pdftex.def Info: gambar/admin/filter_pesanan_admin.png  used on input line 218.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [31 <./gambar/admin/pesanan_admin.png> <./gambar/admin/detail_pesanan.png>]
+<gambar/admin/export_pesanan_admin.png, id=745, 1156.32pt x 650.43pt>
+File: gambar/admin/export_pesanan_admin.png Graphic file (type png)
+<use gambar/admin/export_pesanan_admin.png>
+Package pdftex.def Info: gambar/admin/export_pesanan_admin.png  used on input line 225.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/promo.png, id=746, 1156.32pt x 650.43pt>
+File: gambar/admin/promo.png Graphic file (type png)
+<use gambar/admin/promo.png>
+Package pdftex.def Info: gambar/admin/promo.png  used on input line 234.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [32 <./gambar/admin/filter_pesanan_admin.png> <./gambar/admin/export_pesanan_admin.png>]
+<gambar/admin/tambah_promo.png, id=753, 1156.32pt x 650.43pt>
+File: gambar/admin/tambah_promo.png Graphic file (type png)
+<use gambar/admin/tambah_promo.png>
+Package pdftex.def Info: gambar/admin/tambah_promo.png  used on input line 241.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/ubah_promo.png, id=754, 1156.32pt x 650.43pt>
+File: gambar/admin/ubah_promo.png Graphic file (type png)
+<use gambar/admin/ubah_promo.png>
+Package pdftex.def Info: gambar/admin/ubah_promo.png  used on input line 248.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [33 <./gambar/admin/promo.png> <./gambar/admin/tambah_promo.png>]
+<gambar/admin/pengguna.png, id=762, 1156.32pt x 650.43pt>
+File: gambar/admin/pengguna.png Graphic file (type png)
+<use gambar/admin/pengguna.png>
+Package pdftex.def Info: gambar/admin/pengguna.png  used on input line 257.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/tambah_pengguna.png, id=763, 1156.32pt x 650.43pt>
+File: gambar/admin/tambah_pengguna.png Graphic file (type png)
+<use gambar/admin/tambah_pengguna.png>
+Package pdftex.def Info: gambar/admin/tambah_pengguna.png  used on input line 264.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [34 <./gambar/admin/ubah_promo.png> <./gambar/admin/pengguna.png>]
+<gambar/admin/filter_pengguna.png, id=770, 1156.32pt x 650.43pt>
+File: gambar/admin/filter_pengguna.png Graphic file (type png)
+<use gambar/admin/filter_pengguna.png>
+Package pdftex.def Info: gambar/admin/filter_pengguna.png  used on input line 271.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/laporan.png, id=771, 1156.32pt x 650.43pt>
+File: gambar/admin/laporan.png Graphic file (type png)
+<use gambar/admin/laporan.png>
+Package pdftex.def Info: gambar/admin/laporan.png  used on input line 280.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [35 <./gambar/admin/tambah_pengguna.png> <./gambar/admin/filter_pengguna.png>]
+<gambar/admin/ulasan_admin.png, id=778, 1156.32pt x 650.43pt>
+File: gambar/admin/ulasan_admin.png Graphic file (type png)
+<use gambar/admin/ulasan_admin.png>
+Package pdftex.def Info: gambar/admin/ulasan_admin.png  used on input line 289.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/admin/filter_ulasan.png, id=779, 1156.32pt x 650.43pt>
+File: gambar/admin/filter_ulasan.png Graphic file (type png)
+<use gambar/admin/filter_ulasan.png>
+Package pdftex.def Info: gambar/admin/filter_ulasan.png  used on input line 296.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [36 <./gambar/admin/laporan.png> <./gambar/admin/ulasan_admin.png>]
+File: gambar/homepage.png Graphic file (type png)
+<use gambar/homepage.png>
+Package pdftex.def Info: gambar/homepage.png  used on input line 307.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [37 <./gambar/admin/filter_ulasan.png>]
+File: gambar/login.png Graphic file (type png)
+<use gambar/login.png>
+Package pdftex.def Info: gambar/login.png  used on input line 314.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/informasi.png, id=792, 1156.32pt x 650.43pt>
+File: gambar/informasi.png Graphic file (type png)
+<use gambar/informasi.png>
+Package pdftex.def Info: gambar/informasi.png  used on input line 323.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [38]
+<gambar/diblokir.png, id=797, 1156.32pt x 650.43pt>
+File: gambar/diblokir.png Graphic file (type png)
+<use gambar/diblokir.png>
+Package pdftex.def Info: gambar/diblokir.png  used on input line 332.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [39 <./gambar/informasi.png> <./gambar/diblokir.png>]
+File: gambar/lupa_password.png Graphic file (type png)
+<use gambar/lupa_password.png>
+Package pdftex.def Info: gambar/lupa_password.png  used on input line 341.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/penjual/dashboard_penjual.png, id=805, 1156.32pt x 650.43pt>
+File: gambar/penjual/dashboard_penjual.png Graphic file (type png)
+<use gambar/penjual/dashboard_penjual.png>
+Package pdftex.def Info: gambar/penjual/dashboard_penjual.png  used on input line 350.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [40]
+<gambar/penjual/produk_penjual.png, id=810, 1156.32pt x 650.43pt>
+File: gambar/penjual/produk_penjual.png Graphic file (type png)
+<use gambar/penjual/produk_penjual.png>
+Package pdftex.def Info: gambar/penjual/produk_penjual.png  used on input line 359.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [41 <./gambar/penjual/dashboard_penjual.png> <./gambar/penjual/produk_penjual.png>]
+<gambar/penjual/tambah_produk.png, id=817, 1156.32pt x 650.43pt>
+File: gambar/penjual/tambah_produk.png Graphic file (type png)
+<use gambar/penjual/tambah_produk.png>
+Package pdftex.def Info: gambar/penjual/tambah_produk.png  used on input line 368.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/penjual/ubah_produk.png, id=818, 1156.32pt x 650.43pt>
+File: gambar/penjual/ubah_produk.png Graphic file (type png)
+<use gambar/penjual/ubah_produk.png>
+Package pdftex.def Info: gambar/penjual/ubah_produk.png  used on input line 377.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [42 <./gambar/penjual/tambah_produk.png>]
+<gambar/penjual/hapus_produk.png, id=824, 1156.32pt x 650.43pt>
+File: gambar/penjual/hapus_produk.png Graphic file (type png)
+<use gambar/penjual/hapus_produk.png>
+Package pdftex.def Info: gambar/penjual/hapus_produk.png  used on input line 386.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [43 <./gambar/penjual/ubah_produk.png> <./gambar/penjual/hapus_produk.png>]
+<gambar/penjual/pesanan_penjual.png, id=831, 1156.32pt x 650.43pt>
+File: gambar/penjual/pesanan_penjual.png Graphic file (type png)
+<use gambar/penjual/pesanan_penjual.png>
+Package pdftex.def Info: gambar/penjual/pesanan_penjual.png  used on input line 395.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/penjual/tinjau_pesanan.png, id=832, 1156.32pt x 650.43pt>
+File: gambar/penjual/tinjau_pesanan.png Graphic file (type png)
+<use gambar/penjual/tinjau_pesanan.png>
+Package pdftex.def Info: gambar/penjual/tinjau_pesanan.png  used on input line 404.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [44 <./gambar/penjual/pesanan_penjual.png>]
+<gambar/penjual/pdf_penjual.png, id=838, 1156.32pt x 650.43pt>
+File: gambar/penjual/pdf_penjual.png Graphic file (type png)
+<use gambar/penjual/pdf_penjual.png>
+Package pdftex.def Info: gambar/penjual/pdf_penjual.png  used on input line 413.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [45 <./gambar/penjual/tinjau_pesanan.png> <./gambar/penjual/pdf_penjual.png>]
+<gambar/penjual/ulasan.png, id=846, 1156.32pt x 650.43pt>
+File: gambar/penjual/ulasan.png Graphic file (type png)
+<use gambar/penjual/ulasan.png>
+Package pdftex.def Info: gambar/penjual/ulasan.png  used on input line 422.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+<gambar/penjual/profil.png, id=847, 1156.32pt x 650.43pt>
+File: gambar/penjual/profil.png Graphic file (type png)
+<use gambar/penjual/profil.png>
+Package pdftex.def Info: gambar/penjual/profil.png  used on input line 431.
+(pdftex.def)             Requested size: 406.87064pt x 256.07838pt.
+ [46 <./gambar/penjual/ulasan.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 439.
+
+[47 <./gambar/penjual/profil.png>] [48]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 551.
+
+
+Overfull \hbox (264.0518pt too wide) in paragraph at lines 563--589
+ [] 
+ []
+
+[49] [50]) [51]
+\openout2 = `bab5.aux'.
+
+ (bab5.tex
+BAB V.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 18.
+
+) [52
+
+
+
+
+] (proposal.bbl [53
+
+
+
+]) [54] (proposal.aux (abstrak-indonesia.aux) (abstrak-english.aux) (kata-pengantar.aux) (daftar-singkatan.aux) (bab1.aux) (bab2.aux) (bab3.aux) (bab4.aux) (bab5.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 5DD45303F8E58ACCCFB005E140B47FAF;5084.
+(rerunfilecheck)             Checksum: 2B6C885E780CFCA53FFF084B932A1862;6939.
  ) 
 Here is how much of TeX's memory you used:
- 15963 strings out of 478927
- 239655 string characters out of 2862395
- 588997 words of memory out of 3000000
- 33271 multiletter control sequences out of 15000+600000
- 427910 words of font info for 58 fonts, out of 8000000 for 9000
+ 16578 strings out of 478927
+ 255262 string characters out of 2862395
+ 601347 words of memory out of 3000000
+ 33693 multiletter control sequences out of 15000+600000
+ 430678 words of font info for 60 fonts, out of 8000000 for 9000
  1219 hyphenation exceptions out of 8191
- 72i,11n,80p,1018b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (26 pages, 602194 bytes).
+ 72i,12n,80p,1124b,872s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on proposal.pdf (64 pages, 28665148 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 153 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1007 PDF objects out of 1200 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 601 words of extra memory for PDF output out of 10000 (max. 10000000)
 
