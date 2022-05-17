@@ -188,7 +188,7 @@
 \def\nomenclaturename{DAFTAR SINGKATAN}%
 \def\abstractname{ABSTRAK}%
 \def\acknowledgmentname{HALAMAN PERSEMBAHAN}%
-\def\approvalname{PENGESAHAN PROPOSAL}%
+\def\approvalname{PENGESAHAN SEMINAR HASIL}%
 \def\partname{BAGIAN}%
 \def\chaptername{BAB}%
 \def\appendixname{LAMPIRAN}%
@@ -278,9 +278,9 @@
       \begin{singlespace}
       \fontsize{14pt}{16pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
       \vspace{2.5cm}
-      \MakeUppercase{\large{\bfseries{Proposal}}}\\ %it's me!
+      \MakeUppercase{\large{\bfseries{Tugas Akhir}}}\\ %it's me!
       \vspace{1.0cm}
-	  \normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna pelaksanaan penelitian Tugas Akhir\\} %it's me!
+	  \normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna memperoleh gelar Sarjana Komputer\\} %it's me!
        \vspace{1.0cm}
        {\normalfont
         Oleh:\\
@@ -312,8 +312,8 @@
 			\vspace{0.5cm}
 			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
 
-			% \vspace{1cm}
-			% \fontsize{12pt}{10pt}\selectfont\MakeUppercase{\Large{\bfseries\@judull}}\par\nobreak
+			\vspace{1cm}
+			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{\Large{\bfseries\@judull}}\par\nobreak
 
 			\vspace{1.0cm}
 			Oleh:

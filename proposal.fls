@@ -800,6 +800,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\fancybox\fancybox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\fancybox\fancybox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\fancybox\fancybox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
 INPUT .\sampul-depan.tex
 INPUT .\sampul-depan.tex
 INPUT .\sampul-depan.tex
@@ -881,6 +889,9 @@ INPUT bab4.aux
 INPUT .\bab5.aux
 INPUT bab5.aux
 INPUT bab5.aux
+INPUT .\lampiran.aux
+INPUT lampiran.aux
+INPUT lampiran.aux
 OUTPUT proposal.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1002,9 +1013,12 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
 INPUT .\abstrak-indonesia.tex
 INPUT .\abstrak-indonesia.tex
 INPUT .\abstrak-indonesia.tex
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 OUTPUT abstrak-indonesia.aux
 INPUT .\abstrak-indonesia.tex
 INPUT .\abstrak-indonesia.tex
@@ -1012,6 +1026,9 @@ INPUT .\abstrak-indonesia.tex
 INPUT abstrak-indonesia.tex
 INPUT .\abstrak-indonesia.tex
 INPUT abstrak-indonesia.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\abstrak-english.tex
 INPUT .\abstrak-english.tex
 INPUT .\abstrak-english.tex
@@ -1022,10 +1039,7 @@ INPUT .\abstrak-english.tex
 INPUT abstrak-english.tex
 INPUT .\abstrak-english.tex
 INPUT abstrak-english.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\kata-pengantar.tex
@@ -1050,6 +1064,14 @@ INPUT .\proposal.lof
 INPUT proposal.lof
 INPUT proposal.lof
 OUTPUT proposal.lof
+INPUT .\proposal.lol
+INPUT proposal.lol
+INPUT proposal.lol
+OUTPUT proposal.lol
+INPUT .\proposal.apc
+INPUT proposal.apc
+INPUT proposal.apc
+OUTPUT proposal.apc
 INPUT .\daftar-singkatan.tex
 INPUT .\daftar-singkatan.tex
 INPUT .\daftar-singkatan.tex
@@ -1108,18 +1130,6 @@ INPUT .\gambar\flowchart_proposal.png
 INPUT .\gambar\flowchart_proposal.png
 INPUT .\gambar\flowchart_proposal.png
 INPUT .\gambar\flowchart_proposal.png
-INPUT .\gambar\use_case_diagram.png
-INPUT gambar\use_case_diagram.png
-INPUT .\gambar\use_case_diagram.png
-INPUT .\gambar\use_case_diagram.png
-INPUT .\gambar\use_case_diagram.png
-INPUT .\gambar\use_case_diagram.png
-INPUT .\gambar\bisnis_diagram.png
-INPUT gambar\bisnis_diagram.png
-INPUT .\gambar\bisnis_diagram.png
-INPUT .\gambar\bisnis_diagram.png
-INPUT .\gambar\bisnis_diagram.png
-INPUT .\gambar\bisnis_diagram.png
 INPUT .\gambar\alur_kerja_sistem.png
 INPUT gambar\alur_kerja_sistem.png
 INPUT .\gambar\alur_kerja_sistem.png
@@ -1136,12 +1146,108 @@ INPUT .\bab4.tex
 INPUT bab4.tex
 INPUT .\bab4.tex
 INPUT bab4.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\gambar\use_case_diagram.png
 INPUT gambar\use_case_diagram.png
 INPUT .\gambar\use_case_diagram.png
-INPUT .\gambar\bisnis_diagram.png
-INPUT gambar\bisnis_diagram.png
-INPUT .\gambar\bisnis_diagram.png
+INPUT .\gambar\use_case_diagram.png
+INPUT .\gambar\use_case_diagram.png
+INPUT .\gambar\use_case_diagram.png
+INPUT .\gambar\bisnis diagram baru.png
+INPUT gambar\bisnis diagram baru.png
+INPUT .\gambar\bisnis diagram baru.png
+INPUT .\gambar\bisnis diagram baru.png
+INPUT .\gambar\bisnis diagram baru.png
+INPUT .\gambar\bisnis diagram baru.png
+INPUT .\gambar\activity diagram\masuk akun.png
+INPUT gambar\activity diagram\masuk akun.png
+INPUT .\gambar\activity diagram\masuk akun.png
+INPUT .\gambar\activity diagram\masuk akun.png
+INPUT .\gambar\activity diagram\masuk akun.png
+INPUT .\gambar\activity diagram\masuk akun.png
+INPUT .\gambar\activity diagram\lihat produk.png
+INPUT gambar\activity diagram\lihat produk.png
+INPUT .\gambar\activity diagram\lihat produk.png
+INPUT .\gambar\activity diagram\lihat produk.png
+INPUT .\gambar\activity diagram\lihat produk.png
+INPUT .\gambar\activity diagram\lihat produk.png
+INPUT .\gambar\activity diagram\jual produk.png
+INPUT gambar\activity diagram\jual produk.png
+INPUT .\gambar\activity diagram\jual produk.png
+INPUT .\gambar\activity diagram\jual produk.png
+INPUT .\gambar\activity diagram\jual produk.png
+INPUT .\gambar\activity diagram\jual produk.png
+INPUT .\gambar\activity diagram\ubah atau hapus produk.png
+INPUT gambar\activity diagram\ubah atau hapus produk.png
+INPUT .\gambar\activity diagram\ubah atau hapus produk.png
+INPUT .\gambar\activity diagram\ubah atau hapus produk.png
+INPUT .\gambar\activity diagram\ubah atau hapus produk.png
+INPUT .\gambar\activity diagram\ubah atau hapus produk.png
+INPUT .\gambar\activity diagram\lihat pesanan.png
+INPUT gambar\activity diagram\lihat pesanan.png
+INPUT .\gambar\activity diagram\lihat pesanan.png
+INPUT .\gambar\activity diagram\lihat pesanan.png
+INPUT .\gambar\activity diagram\lihat pesanan.png
+INPUT .\gambar\activity diagram\lihat pesanan.png
+INPUT .\gambar\activity diagram\ubah status pesanan.png
+INPUT gambar\activity diagram\ubah status pesanan.png
+INPUT .\gambar\activity diagram\ubah status pesanan.png
+INPUT .\gambar\activity diagram\ubah status pesanan.png
+INPUT .\gambar\activity diagram\ubah status pesanan.png
+INPUT .\gambar\activity diagram\ubah status pesanan.png
+INPUT .\gambar\activity diagram\buat promo.png
+INPUT gambar\activity diagram\buat promo.png
+INPUT .\gambar\activity diagram\buat promo.png
+INPUT .\gambar\activity diagram\buat promo.png
+INPUT .\gambar\activity diagram\buat promo.png
+INPUT .\gambar\activity diagram\buat promo.png
+INPUT .\gambar\activity diagram\ubah atau hapus promo.png
+INPUT gambar\activity diagram\ubah atau hapus promo.png
+INPUT .\gambar\activity diagram\ubah atau hapus promo.png
+INPUT .\gambar\activity diagram\ubah atau hapus promo.png
+INPUT .\gambar\activity diagram\ubah atau hapus promo.png
+INPUT .\gambar\activity diagram\ubah atau hapus promo.png
+INPUT .\gambar\activity diagram\lihat pengguna.png
+INPUT gambar\activity diagram\lihat pengguna.png
+INPUT .\gambar\activity diagram\lihat pengguna.png
+INPUT .\gambar\activity diagram\lihat pengguna.png
+INPUT .\gambar\activity diagram\lihat pengguna.png
+INPUT .\gambar\activity diagram\lihat pengguna.png
+INPUT .\gambar\activity diagram\daftar akun penjual.png
+INPUT gambar\activity diagram\daftar akun penjual.png
+INPUT .\gambar\activity diagram\daftar akun penjual.png
+INPUT .\gambar\activity diagram\daftar akun penjual.png
+INPUT .\gambar\activity diagram\daftar akun penjual.png
+INPUT .\gambar\activity diagram\daftar akun penjual.png
+INPUT .\gambar\activity diagram\blokir penjual.png
+INPUT gambar\activity diagram\blokir penjual.png
+INPUT .\gambar\activity diagram\blokir penjual.png
+INPUT .\gambar\activity diagram\blokir penjual.png
+INPUT .\gambar\activity diagram\blokir penjual.png
+INPUT .\gambar\activity diagram\blokir penjual.png
+INPUT .\gambar\activity diagram\lihat keluhan.png
+INPUT gambar\activity diagram\lihat keluhan.png
+INPUT .\gambar\activity diagram\lihat keluhan.png
+INPUT .\gambar\activity diagram\lihat keluhan.png
+INPUT .\gambar\activity diagram\lihat keluhan.png
+INPUT .\gambar\activity diagram\lihat keluhan.png
+INPUT .\gambar\activity diagram\lihat ulasan.png
+INPUT gambar\activity diagram\lihat ulasan.png
+INPUT .\gambar\activity diagram\lihat ulasan.png
+INPUT .\gambar\activity diagram\lihat ulasan.png
+INPUT .\gambar\activity diagram\lihat ulasan.png
+INPUT .\gambar\activity diagram\lihat ulasan.png
+INPUT .\gambar\activity diagram\ubah profil.png
+INPUT gambar\activity diagram\ubah profil.png
+INPUT .\gambar\activity diagram\ubah profil.png
+INPUT .\gambar\activity diagram\ubah profil.png
+INPUT .\gambar\activity diagram\ubah profil.png
+INPUT .\gambar\activity diagram\ubah profil.png
 INPUT .\gambar\erd.png
 INPUT gambar\erd.png
 INPUT .\gambar\erd.png
@@ -1160,12 +1266,6 @@ INPUT .\gambar\login.png
 INPUT .\gambar\login.png
 INPUT .\gambar\login.png
 INPUT .\gambar\login.png
-INPUT .\gambar\lupa_password.png
-INPUT gambar\lupa_password.png
-INPUT .\gambar\lupa_password.png
-INPUT .\gambar\lupa_password.png
-INPUT .\gambar\lupa_password.png
-INPUT .\gambar\lupa_password.png
 INPUT .\gambar\admin\dashboard_admin.png
 INPUT gambar\admin\dashboard_admin.png
 INPUT .\gambar\admin\dashboard_admin.png
@@ -1184,18 +1284,6 @@ INPUT .\gambar\admin\lihat_produk_admin.png
 INPUT .\gambar\admin\lihat_produk_admin.png
 INPUT .\gambar\admin\lihat_produk_admin.png
 INPUT .\gambar\admin\lihat_produk_admin.png
-INPUT .\gambar\admin\pencarian_produk_admin.png
-INPUT gambar\admin\pencarian_produk_admin.png
-INPUT .\gambar\admin\pencarian_produk_admin.png
-INPUT .\gambar\admin\pencarian_produk_admin.png
-INPUT .\gambar\admin\pencarian_produk_admin.png
-INPUT .\gambar\admin\pencarian_produk_admin.png
-INPUT .\gambar\admin\hapus_produk_admin.png
-INPUT gambar\admin\hapus_produk_admin.png
-INPUT .\gambar\admin\hapus_produk_admin.png
-INPUT .\gambar\admin\hapus_produk_admin.png
-INPUT .\gambar\admin\hapus_produk_admin.png
-INPUT .\gambar\admin\hapus_produk_admin.png
 INPUT .\gambar\admin\pesanan_admin.png
 INPUT gambar\admin\pesanan_admin.png
 INPUT .\gambar\admin\pesanan_admin.png
@@ -1208,12 +1296,6 @@ INPUT .\gambar\admin\detail_pesanan.png
 INPUT .\gambar\admin\detail_pesanan.png
 INPUT .\gambar\admin\detail_pesanan.png
 INPUT .\gambar\admin\detail_pesanan.png
-INPUT .\gambar\admin\filter_pesanan_admin.png
-INPUT gambar\admin\filter_pesanan_admin.png
-INPUT .\gambar\admin\filter_pesanan_admin.png
-INPUT .\gambar\admin\filter_pesanan_admin.png
-INPUT .\gambar\admin\filter_pesanan_admin.png
-INPUT .\gambar\admin\filter_pesanan_admin.png
 INPUT .\gambar\admin\export_pesanan_admin.png
 INPUT gambar\admin\export_pesanan_admin.png
 INPUT .\gambar\admin\export_pesanan_admin.png
@@ -1250,12 +1332,6 @@ INPUT .\gambar\admin\tambah_pengguna.png
 INPUT .\gambar\admin\tambah_pengguna.png
 INPUT .\gambar\admin\tambah_pengguna.png
 INPUT .\gambar\admin\tambah_pengguna.png
-INPUT .\gambar\admin\filter_pengguna.png
-INPUT gambar\admin\filter_pengguna.png
-INPUT .\gambar\admin\filter_pengguna.png
-INPUT .\gambar\admin\filter_pengguna.png
-INPUT .\gambar\admin\filter_pengguna.png
-INPUT .\gambar\admin\filter_pengguna.png
 INPUT .\gambar\admin\laporan.png
 INPUT gambar\admin\laporan.png
 INPUT .\gambar\admin\laporan.png
@@ -1268,18 +1344,6 @@ INPUT .\gambar\admin\ulasan_admin.png
 INPUT .\gambar\admin\ulasan_admin.png
 INPUT .\gambar\admin\ulasan_admin.png
 INPUT .\gambar\admin\ulasan_admin.png
-INPUT .\gambar\admin\filter_ulasan.png
-INPUT gambar\admin\filter_ulasan.png
-INPUT .\gambar\admin\filter_ulasan.png
-INPUT .\gambar\admin\filter_ulasan.png
-INPUT .\gambar\admin\filter_ulasan.png
-INPUT .\gambar\admin\filter_ulasan.png
-INPUT .\gambar\homepage.png
-INPUT gambar\homepage.png
-INPUT .\gambar\homepage.png
-INPUT .\gambar\login.png
-INPUT gambar\login.png
-INPUT .\gambar\login.png
 INPUT .\gambar\informasi.png
 INPUT gambar\informasi.png
 INPUT .\gambar\informasi.png
@@ -1294,6 +1358,9 @@ INPUT .\gambar\diblokir.png
 INPUT .\gambar\diblokir.png
 INPUT .\gambar\lupa_password.png
 INPUT gambar\lupa_password.png
+INPUT .\gambar\lupa_password.png
+INPUT .\gambar\lupa_password.png
+INPUT .\gambar\lupa_password.png
 INPUT .\gambar\lupa_password.png
 INPUT .\gambar\penjual\dashboard_penjual.png
 INPUT gambar\penjual\dashboard_penjual.png
@@ -1319,12 +1386,6 @@ INPUT .\gambar\penjual\ubah_produk.png
 INPUT .\gambar\penjual\ubah_produk.png
 INPUT .\gambar\penjual\ubah_produk.png
 INPUT .\gambar\penjual\ubah_produk.png
-INPUT .\gambar\penjual\hapus_produk.png
-INPUT gambar\penjual\hapus_produk.png
-INPUT .\gambar\penjual\hapus_produk.png
-INPUT .\gambar\penjual\hapus_produk.png
-INPUT .\gambar\penjual\hapus_produk.png
-INPUT .\gambar\penjual\hapus_produk.png
 INPUT .\gambar\penjual\pesanan_penjual.png
 INPUT gambar\penjual\pesanan_penjual.png
 INPUT .\gambar\penjual\pesanan_penjual.png
@@ -1355,6 +1416,20 @@ INPUT .\gambar\penjual\profil.png
 INPUT .\gambar\penjual\profil.png
 INPUT .\gambar\penjual\profil.png
 INPUT .\gambar\penjual\profil.png
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\gambar\struktur folder.png
+INPUT gambar\struktur folder.png
+INPUT .\gambar\struktur folder.png
+INPUT .\gambar\struktur folder.png
+INPUT .\gambar\struktur folder.png
+INPUT .\gambar\struktur folder.png
 INPUT .\bab5.tex
 INPUT .\bab5.tex
 INPUT .\bab5.tex
@@ -1369,6 +1444,52 @@ INPUT .\proposal.bbl
 INPUT proposal.bbl
 INPUT .\proposal.bbl
 INPUT proposal.bbl
+INPUT .\lampiran.tex
+INPUT .\lampiran.tex
+INPUT .\lampiran.tex
+OUTPUT lampiran.aux
+INPUT .\lampiran.tex
+INPUT .\lampiran.tex
+INPUT .\lampiran.tex
+INPUT lampiran.tex
+INPUT .\lampiran.tex
+INPUT lampiran.tex
+INPUT .\gambar\HKI.pdf
+INPUT .\gambar\HKI.pdf
+INPUT gambar\HKI.pdf
+INPUT .\gambar\HKI.pdf
+INPUT .\gambar\HKI.pdf
+INPUT .\gambar\HKI.pdf
+INPUT .\gambar\dokumentasi\foto1.jpeg
+INPUT gambar\dokumentasi\foto1.jpeg
+INPUT .\gambar\dokumentasi\foto1.jpeg
+INPUT .\gambar\dokumentasi\foto1.jpeg
+INPUT .\gambar\dokumentasi\foto1.jpeg
+INPUT .\gambar\dokumentasi\foto1.jpeg
+INPUT .\gambar\dokumentasi\foto2.jpeg
+INPUT gambar\dokumentasi\foto2.jpeg
+INPUT .\gambar\dokumentasi\foto2.jpeg
+INPUT .\gambar\dokumentasi\foto2.jpeg
+INPUT .\gambar\dokumentasi\foto2.jpeg
+INPUT .\gambar\dokumentasi\foto2.jpeg
+INPUT .\gambar\dokumentasi\foto4.jpeg
+INPUT gambar\dokumentasi\foto4.jpeg
+INPUT .\gambar\dokumentasi\foto4.jpeg
+INPUT .\gambar\dokumentasi\foto4.jpeg
+INPUT .\gambar\dokumentasi\foto4.jpeg
+INPUT .\gambar\dokumentasi\foto4.jpeg
+INPUT .\gambar\dokumentasi\foto6.jpeg
+INPUT gambar\dokumentasi\foto6.jpeg
+INPUT .\gambar\dokumentasi\foto6.jpeg
+INPUT .\gambar\dokumentasi\foto6.jpeg
+INPUT .\gambar\dokumentasi\foto6.jpeg
+INPUT .\gambar\dokumentasi\foto6.jpeg
+INPUT .\gambar\dokumentasi\doku testi.png
+INPUT gambar\dokumentasi\doku testi.png
+INPUT .\gambar\dokumentasi\doku testi.png
+INPUT .\gambar\dokumentasi\doku testi.png
+INPUT .\gambar\dokumentasi\doku testi.png
+INPUT .\gambar\dokumentasi\doku testi.png
 INPUT proposal.aux
 INPUT .\abstrak-indonesia.aux
 INPUT abstrak-indonesia.aux
@@ -1397,6 +1518,9 @@ INPUT bab4.aux
 INPUT .\bab5.aux
 INPUT bab5.aux
 INPUT bab5.aux
+INPUT .\lampiran.aux
+INPUT lampiran.aux
+INPUT lampiran.aux
 INPUT .\proposal.out
 INPUT .\proposal.out
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\base\8r.enc
@@ -1414,6 +1538,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb

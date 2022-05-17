@@ -142,6 +142,32 @@
 \definecolor{AndroidXMLString}{HTML}{228b22}
 \definecolor{AndroidXMLKeyword}{HTML}{7F007F}
 
+% warna code snippet PHP
+\definecolor{backcolor}{rgb}{0.95,0.95,0.96}
+
+\lstset{
+	language=php,
+	backgroundcolor=\color{backcolor},
+	commentstyle=\color{mygreen},
+	keywordstyle=\color{javadocblue},
+	stringstyle=\color{javared},
+	basicstyle=\ttfamily\footnotesize,
+	numbers=left,
+	% breakatwhitespace=false,
+	breaklines=true,
+	% keepspaces=true,
+	% numbersep=5pt,
+	% showspaces=false,
+	% showtabs=false,
+	tabsize=4,
+	numberstyle=\footnotesize,
+	% xleftmargin=10pt,
+	emph            =[1]{return, public, function},
+	emphstyle       =[1]\color{javadocblue},
+	% showstringspaces=false,
+	captionpos=b,
+}
+
 % Sampul Depan
 \include{sampul-depan}
 
@@ -202,12 +228,12 @@
 \listoffigures
 \addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
 
-%\renewcommand{\lstlistlistingname}{DAFTAR PROGRAM}
-%\lstlistoflistings
-%\addcontentsline{toc}{chapter}{DAFTAR PROGRAM}
+\renewcommand{\lstlistlistingname}{DAFTAR PROGRAM}
+\lstlistoflistings
+\addcontentsline{toc}{chapter}{DAFTAR PROGRAM}
 
-% \listofappendices
-% \addcontentsline{toc}{chapter}{DAFTAR LAMPIRAN}
+\listofappendices
+\addcontentsline{toc}{chapter}{DAFTAR LAMPIRAN}
 
 %-----------------------------------------------------------------
 % Daftar Singkatan 
@@ -246,9 +272,9 @@
 % Disini akhir masukan Daftar Pustaka
 %-----------------------------------------------------------------
 
-%\include{markLampiran}
-%\include{lampiran}
-%\addcontentsline{toc}{chapter}{LAMPIRAN} %daftar lampiran
+% \include{markLampiran}
+\include{lampiran}
+\addcontentsline{toc}{chapter}{LAMPIRAN} %daftar lampiran
 
 \end{onehalfspace}
 

@@ -6,50 +6,54 @@
 \babel@toc {bahasa}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Metode Scrum \citep {wahyudi2018analisis}\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Metode Scrum \citep {wahyudi2018analisis}\relax }}{11}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Penelitian\relax }}{14}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Use Case Diagram\relax }}{16}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Business Diagram\relax }}{17}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Alur Kerja Sistem\relax }}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Penelitian\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Alur Kerja Sistem\relax }}{16}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Use Case Diagram\relax }}{20}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Business Diagram\relax }}{22}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Entity Relationship Diagram\relax }}{23}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Halaman Home\relax }}{25}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Halaman Login\relax }}{26}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Halaman Lupa Password\relax }}{27}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Halaman Dashboard Admin\relax }}{28}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Halaman Produk Admin\relax }}{28}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Halaman Lihat Produk Admin\relax }}{29}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Halaman Pencarian Produk Admin\relax }}{29}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Halaman Hapus Produk Admin\relax }}{30}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Halaman Pesanan Admin\relax }}{31}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Halaman Detail Pesanan\relax }}{31}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Halaman Filter Pesanan Admin\relax }}{32}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Halaman Export Pesanan Admin\relax }}{32}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Halaman Promo Admin\relax }}{33}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Halaman Tambah Promo\relax }}{33}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Halaman Ubah Promo\relax }}{34}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Halaman Pengguna\relax }}{34}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Halaman Tambah Pengguna\relax }}{35}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Halaman Filter Pengguna\relax }}{35}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Halaman Laporan\relax }}{36}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Halaman Ulasan Admin\relax }}{36}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Halaman Filter Ulasan Admin\relax }}{37}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Halaman Home\relax }}{38}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Halaman Login\relax }}{38}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Halaman Informasi\relax }}{39}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Halaman Diblokir\relax }}{39}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Halaman Lupa Password\relax }}{40}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Halaman Dashboard Penjual\relax }}{41}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Halaman Produk Penjual\relax }}{41}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Halaman Tambah Produk\relax }}{42}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Halaman Ubah Produk\relax }}{43}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Halaman Hapus Produk\relax }}{43}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Halaman Pesanan Penjual\relax }}{44}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Halaman Tinjau Pesanan\relax }}{45}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Halaman Export Pesanan Penjual\relax }}{45}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Halaman Ulasan Penjual\relax }}{46}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Halaman Profil Penjual\relax }}{47}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Use Case Diagram}\relax }}{19}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Business Diagram}\relax }}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Activity Diagram} Masuk Akun\relax }}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \textit {Activity Diagram} Melihat Produk\relax }}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \textit {Activity Diagram} Menambahkan Produk\relax }}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \textit {Activity Diagram} Mengubah atau Menghapus Produk\relax }}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \textit {Activity Diagram} Melihat Pesanan\relax }}{24}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \textit {Activity Diagram} Mengubah Status Pesanan\relax }}{25}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \textit {Activity Diagram} Membuat Promo\relax }}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \textit {Activity Diagram} Mengubah atau Menghapus Promo\relax }}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \textit {Activity Diagram} Melihat Pengguna\relax }}{27}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \textit {Activity Diagram} Masuk Akun Penjual\relax }}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces \textit {Activity Diagram} Memblokir Akun Penjual\relax }}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces \textit {Activity Diagram} Melihat Keluhan\relax }}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \textit {Activity Diagram} Melihat Ulasan Produk\relax }}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \textit {Activity Diagram} Mengubah Profil Akun\relax }}{30}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \textit {Entity Relationship Diagram}\relax }}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Halaman Utama\relax }}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Halaman Masuk\relax }}{34}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Halaman Dasbor pada sisi Admin\relax }}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Halaman Produk pada sisi Admin\relax }}{36}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Tampilan Detail Produk\relax }}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Halaman Pesanan pada sisi Admin\relax }}{37}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Tampilan Detail Pesanan\relax }}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Tampilan Ekspor PDF Pesanan pada sisi Admin\relax }}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Halaman Promo\relax }}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Tampilan Tambah Promo\relax }}{39}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Tampilan Ubah Promo\relax }}{39}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Halaman Pengguna\relax }}{40}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Tampilan Tambah Akun Pejual\relax }}{40}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Halaman Laporan\relax }}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Halaman Ulasan pada sisi Admin\relax }}{41}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Halaman Informasi\relax }}{42}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Tampilan Diblokir\relax }}{43}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Halaman Lupa \textit {Password}\relax }}{43}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Halaman Dasbor pada sisi Penjual\relax }}{44}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Halaman Produk pada sisi Penjual\relax }}{45}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Tampilan Tambah Produk\relax }}{45}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Halaman Ubah Produk\relax }}{46}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Halaman Pesanan pada sisi Penjual\relax }}{46}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Tampilan Tinjau Pesanan\relax }}{47}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Tampilan Ekspor PDF Pesanan pada sisi Penjual\relax }}{48}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Halaman Ulasan pada sisi Penjual\relax }}{48}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Halaman Ubah Profil\relax }}{49}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Struktur Folder\relax }}{54}{figure.caption.64}%
 \addvspace {10\p@ }

@@ -22,10 +22,12 @@ A level-1 auxiliary file: bab4.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: bab5.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: lampiran.aux
 Database file #1: daftar-pustaka.bib
 You've used 28 entries,
             1935 wiz_defined-function locations,
-            626 strings with 8027 characters,
+            627 strings with 8039 characters,
 and the built_in function-call counts, 8965 in all, are:
 = -- 878
 > -- 270
