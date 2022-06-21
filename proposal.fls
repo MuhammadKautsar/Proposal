@@ -1114,6 +1114,12 @@ INPUT .\gambar\scrum.png
 INPUT .\gambar\scrum.png
 INPUT .\gambar\scrum.png
 INPUT .\gambar\scrum.png
+INPUT .\gambar\sus.png
+INPUT gambar\sus.png
+INPUT .\gambar\sus.png
+INPUT .\gambar\sus.png
+INPUT .\gambar\sus.png
+INPUT .\gambar\sus.png
 INPUT .\bab3.tex
 INPUT .\bab3.tex
 INPUT .\bab3.tex
@@ -1148,22 +1154,64 @@ INPUT .\bab4.tex
 INPUT bab4.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\gambar\use_case_diagram.png
 INPUT gambar\use_case_diagram.png
 INPUT .\gambar\use_case_diagram.png
 INPUT .\gambar\use_case_diagram.png
 INPUT .\gambar\use_case_diagram.png
 INPUT .\gambar\use_case_diagram.png
-INPUT .\gambar\bisnis diagram baru.png
-INPUT gambar\bisnis diagram baru.png
-INPUT .\gambar\bisnis diagram baru.png
-INPUT .\gambar\bisnis diagram baru.png
-INPUT .\gambar\bisnis diagram baru.png
-INPUT .\gambar\bisnis diagram baru.png
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT .\gambar\sequence\login.png
+INPUT gambar\sequence\login.png
+INPUT .\gambar\sequence\login.png
+INPUT .\gambar\sequence\login.png
+INPUT .\gambar\sequence\login.png
+INPUT .\gambar\sequence\login.png
+INPUT .\gambar\sequence\tambah, ubah, hapus produk.png
+INPUT gambar\sequence\tambah, ubah, hapus produk.png
+INPUT .\gambar\sequence\tambah, ubah, hapus produk.png
+INPUT .\gambar\sequence\tambah, ubah, hapus produk.png
+INPUT .\gambar\sequence\tambah, ubah, hapus produk.png
+INPUT .\gambar\sequence\tambah, ubah, hapus produk.png
+INPUT .\gambar\sequence\proses pesanan.png
+INPUT gambar\sequence\proses pesanan.png
+INPUT .\gambar\sequence\proses pesanan.png
+INPUT .\gambar\sequence\proses pesanan.png
+INPUT .\gambar\sequence\proses pesanan.png
+INPUT .\gambar\sequence\proses pesanan.png
+INPUT .\gambar\sequence\tambah, ubah, hapus promo.png
+INPUT gambar\sequence\tambah, ubah, hapus promo.png
+INPUT .\gambar\sequence\tambah, ubah, hapus promo.png
+INPUT .\gambar\sequence\tambah, ubah, hapus promo.png
+INPUT .\gambar\sequence\tambah, ubah, hapus promo.png
+INPUT .\gambar\sequence\tambah, ubah, hapus promo.png
+INPUT .\gambar\sequence\tambah, blokir pengguna.png
+INPUT gambar\sequence\tambah, blokir pengguna.png
+INPUT .\gambar\sequence\tambah, blokir pengguna.png
+INPUT .\gambar\sequence\tambah, blokir pengguna.png
+INPUT .\gambar\sequence\tambah, blokir pengguna.png
+INPUT .\gambar\sequence\tambah, blokir pengguna.png
+INPUT .\gambar\sequence\keluhan.png
+INPUT gambar\sequence\keluhan.png
+INPUT .\gambar\sequence\keluhan.png
+INPUT .\gambar\sequence\keluhan.png
+INPUT .\gambar\sequence\keluhan.png
+INPUT .\gambar\sequence\keluhan.png
+INPUT .\gambar\sequence\ulasan.png
+INPUT gambar\sequence\ulasan.png
+INPUT .\gambar\sequence\ulasan.png
+INPUT .\gambar\sequence\ulasan.png
+INPUT .\gambar\sequence\ulasan.png
+INPUT .\gambar\sequence\ulasan.png
+INPUT .\gambar\sequence\update profil.png
+INPUT gambar\sequence\update profil.png
+INPUT .\gambar\sequence\update profil.png
+INPUT .\gambar\sequence\update profil.png
+INPUT .\gambar\sequence\update profil.png
+INPUT .\gambar\sequence\update profil.png
 INPUT .\gambar\activity diagram\masuk akun.png
 INPUT gambar\activity diagram\masuk akun.png
 INPUT .\gambar\activity diagram\masuk akun.png
@@ -1430,6 +1478,12 @@ INPUT .\gambar\struktur folder.png
 INPUT .\gambar\struktur folder.png
 INPUT .\gambar\struktur folder.png
 INPUT .\gambar\struktur folder.png
+INPUT .\gambar\umux-lite.png
+INPUT gambar\umux-lite.png
+INPUT .\gambar\umux-lite.png
+INPUT .\gambar\umux-lite.png
+INPUT .\gambar\umux-lite.png
+INPUT .\gambar\umux-lite.png
 INPUT .\bab5.tex
 INPUT .\bab5.tex
 INPUT .\bab5.tex
@@ -1472,24 +1526,36 @@ INPUT .\gambar\dokumentasi\foto2.jpeg
 INPUT .\gambar\dokumentasi\foto2.jpeg
 INPUT .\gambar\dokumentasi\foto2.jpeg
 INPUT .\gambar\dokumentasi\foto2.jpeg
-INPUT .\gambar\dokumentasi\foto4.jpeg
-INPUT gambar\dokumentasi\foto4.jpeg
-INPUT .\gambar\dokumentasi\foto4.jpeg
-INPUT .\gambar\dokumentasi\foto4.jpeg
-INPUT .\gambar\dokumentasi\foto4.jpeg
-INPUT .\gambar\dokumentasi\foto4.jpeg
-INPUT .\gambar\dokumentasi\foto6.jpeg
-INPUT gambar\dokumentasi\foto6.jpeg
-INPUT .\gambar\dokumentasi\foto6.jpeg
-INPUT .\gambar\dokumentasi\foto6.jpeg
-INPUT .\gambar\dokumentasi\foto6.jpeg
-INPUT .\gambar\dokumentasi\foto6.jpeg
+INPUT .\gambar\dokumentasi\foto7.jpg
+INPUT gambar\dokumentasi\foto7.jpg
+INPUT .\gambar\dokumentasi\foto7.jpg
+INPUT .\gambar\dokumentasi\foto7.jpg
+INPUT .\gambar\dokumentasi\foto7.jpg
+INPUT .\gambar\dokumentasi\foto7.jpg
+INPUT .\gambar\dokumentasi\foto8.jpg
+INPUT gambar\dokumentasi\foto8.jpg
+INPUT .\gambar\dokumentasi\foto8.jpg
+INPUT .\gambar\dokumentasi\foto8.jpg
+INPUT .\gambar\dokumentasi\foto8.jpg
+INPUT .\gambar\dokumentasi\foto8.jpg
 INPUT .\gambar\dokumentasi\doku testi.png
 INPUT gambar\dokumentasi\doku testi.png
 INPUT .\gambar\dokumentasi\doku testi.png
 INPUT .\gambar\dokumentasi\doku testi.png
 INPUT .\gambar\dokumentasi\doku testi.png
 INPUT .\gambar\dokumentasi\doku testi.png
+INPUT .\gambar\dokumentasi\diskusi1.jpg
+INPUT gambar\dokumentasi\diskusi1.jpg
+INPUT .\gambar\dokumentasi\diskusi1.jpg
+INPUT .\gambar\dokumentasi\diskusi1.jpg
+INPUT .\gambar\dokumentasi\diskusi1.jpg
+INPUT .\gambar\dokumentasi\diskusi1.jpg
+INPUT .\gambar\dokumentasi\diskusi2.jpg
+INPUT gambar\dokumentasi\diskusi2.jpg
+INPUT .\gambar\dokumentasi\diskusi2.jpg
+INPUT .\gambar\dokumentasi\diskusi2.jpg
+INPUT .\gambar\dokumentasi\diskusi2.jpg
+INPUT .\gambar\dokumentasi\diskusi2.jpg
 INPUT proposal.aux
 INPUT .\abstrak-indonesia.aux
 INPUT abstrak-indonesia.aux

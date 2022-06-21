@@ -33,32 +33,31 @@
 \contentsline {section}{\numberline {2.12}\uppercase {Scrum}}{10}{section.2.12}%
 \contentsline {section}{\numberline {2.13}\uppercase {Black Box Testing}}{11}{section.2.13}%
 \contentsline {section}{\numberline {2.14}\uppercase {Usability Metric for User Experience (UMUX)}}{12}{section.2.14}%
-\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}\uppercase {WAKTU DAN LOKASI PENELITIAN}}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}\uppercase {JADWAL PELAKSANAAN PENELITIAN}}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\uppercase {ALAT DAN BAHAN}}{13}{section.3.3}%
-\contentsline {section}{\numberline {3.4}\uppercase {METODE PENELITIAN}}{14}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Identifikasi Masalah}{14}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Analisis Kebutuhan}{15}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Perancangan Sistem}{15}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Implementasi}{16}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Pengujian}{16}{subsection.3.4.5}%
-\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}\uppercase {Analisis Kebutuhan}}{18}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Kategori Pengguna}{18}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Kebutuhan Pengguna}{18}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}\uppercase {Perancangan Sistem}}{19}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}\textit {Use Case Diagram}}{19}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}\textit {Business Diagram}}{20}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}\textit {Activity Diagram}}{21}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}\textit {Entity Relationship Diagram}}{31}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Antarmuka Aplikasi}{33}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}\uppercase {Implementasi Sistem}}{49}{section.4.3}%
-\contentsline {section}{\numberline {4.4}\uppercase {Pengujian Sistem}}{54}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Pengujian Fungsionalitas Menggunakan Black Box}{54}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Pengujian \textit {Usability} Menggunakan Metode UMUX}{57}{subsection.4.4.2}%
-\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{59}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\uppercase {KESIMPULAN}}{59}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\uppercase {SARAN}}{59}{section.5.2}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{61}{chapter*.66}%
-\contentsline {chapter}{LAMPIRAN}{62}{chapter*.66}%
+\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}\uppercase {WAKTU DAN LOKASI PENELITIAN}}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}\uppercase {ALAT DAN BAHAN}}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}\uppercase {METODE PENELITIAN}}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Identifikasi Masalah}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Analisis Kebutuhan}{16}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Perancangan Sistem}{16}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Implementasi}{17}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Pengujian}{17}{subsection.3.3.5}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}\uppercase {Analisis Kebutuhan}}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Kategori Pengguna}{19}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Kebutuhan Pengguna}{19}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}\uppercase {Perancangan Sistem}}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}\textit {Use Case Diagram}}{20}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}\textit {Sequence Diagram}}{22}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}\textit {Activity Diagram}}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}\textit {Entity Relationship Diagram}}{37}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Antarmuka Aplikasi}{40}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}\uppercase {Implementasi Sistem}}{56}{section.4.3}%
+\contentsline {section}{\numberline {4.4}\uppercase {Pengujian Sistem}}{61}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Pengujian Fungsionalitas Menggunakan Black Box}{61}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Pengujian \textit {Usability} Menggunakan Metode UMUX}{64}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{66}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\uppercase {KESIMPULAN}}{66}{section.5.1}%
+\contentsline {section}{\numberline {5.2}\uppercase {SARAN}}{66}{section.5.2}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{69}{chapter*.73}%
+\contentsline {chapter}{LAMPIRAN}{70}{chapter*.73}%

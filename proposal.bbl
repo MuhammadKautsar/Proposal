@@ -10,6 +10,19 @@ Alviani, P. (2015).
 \newblock {\em Bertanam hidroponik untuk pemula}.
 \newblock Jakarta: Bibit Publisher.
 
+\bibitem[Bangor dkk., 2009]{bangor2009determining}
+Bangor, A., Kortum, P., dan Miller, J. (2009).
+\newblock Determining what individual sus scores mean: Adding an adjective
+  rating scale.
+\newblock {\em Journal of usability studies}, 4(3):114--123.
+
+\bibitem[Borsci dkk., 2015]{article}
+Borsci, S., Federici, S., Bacci, S., Gnaldi, M., dan Bartolucci, F. (2015).
+\newblock Assessing user satisfaction in the era of user experience: Comparison
+  of the sus, umux and umux - lite as a function of product experience.
+\newblock {\em International Journal of Human-Computer Interaction},
+  31:484--495.
+
 \bibitem[Dhika dkk., 2015]{dhika2015perancangan}
 Dhika, H., Lukman, L., dan Fitriansyah, A. (2015).
 \newblock Perancangan web jasa pengiriman barang.
@@ -58,6 +71,12 @@ Iqbal, M. (2016).
 Kasman, A.~D. (2015).
 \newblock {\em Trik Kolaborasi Android dengan PHP \& MySQL}.
 \newblock Yogyakarta: Lokomedia.
+
+\bibitem[Lewis dkk., 2013]{lewis2013umux}
+Lewis, J.~R., Utesch, B.~S., dan Maher, D.~E. (2013).
+\newblock Umux-lite: when there's no time for the sus.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 2099--2102.
 
 \bibitem[Livewire, 2021]{livewire2021}
 Livewire (2021).
