@@ -1,7 +1,7 @@
 \babel@toc {bahasa}{}\relax 
 \babel@toc {bahasa}{}\relax 
 \contentsline {chapter}{ABSTRAK}{iii}{chapter*.2}%
-\contentsline {chapter}{PENGESAHAN SEMINAR HASIL}{iii}{chapter*.1}%
+\contentsline {chapter}{PENGESAHAN}{iii}{chapter*.1}%
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{ABSTRACT}{iv}{chapter*.3}%
 \babel@toc {bahasa}{}\relax 
@@ -19,20 +19,20 @@
 \contentsline {section}{\numberline {1.3}\uppercase {TUJUAN PENELITIAN}}{2}{section.1.3}%
 \contentsline {section}{\numberline {1.4}\uppercase {MANFAAT PENELITIAN}}{3}{section.1.4}%
 \contentsline {chapter}{\numberline {II}TINJAUAN KEPUSTAKAAN}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}\uppercase {Hidroponik}}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}\uppercase {Pemasaran Digital}}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}\uppercase {E-commerce}}{4}{section.2.3}%
-\contentsline {section}{\numberline {2.4}\uppercase {Website}}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}\uppercase {Entity Relationship Diagram (ERD)}}{6}{section.2.5}%
-\contentsline {section}{\numberline {2.6}\uppercase {Unified Modeling language (UML)}}{7}{section.2.6}%
-\contentsline {section}{\numberline {2.7}\uppercase {Laravel Livewire}}{8}{section.2.7}%
+\contentsline {section}{\numberline {2.1}\uppercase {HIDROPONIK}}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}\uppercase {PEMASARAN DIGITAL}}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}\uppercase {E-COMMERCE}}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}\uppercase {WEBSITE}}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}\uppercase {ENTITY RELATIONSHIP DIAGRAM (ERD)}}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}\uppercase {UNIFIED MODELING LANGUAGE (UML)}}{7}{section.2.6}%
+\contentsline {section}{\numberline {2.7}\uppercase {LARAVEL LIVEWIRE}}{8}{section.2.7}%
 \contentsline {section}{\numberline {2.8}\uppercase {MySQL}}{8}{section.2.8}%
-\contentsline {section}{\numberline {2.9}\uppercase {Web Service}}{9}{section.2.9}%
+\contentsline {section}{\numberline {2.9}\uppercase {WEB SERVICE}}{9}{section.2.9}%
 \contentsline {section}{\numberline {2.10}\uppercase {REST}}{9}{section.2.10}%
-\contentsline {section}{\numberline {2.11}\uppercase {Virtual Private Server (VPS)}}{10}{section.2.11}%
-\contentsline {section}{\numberline {2.12}\uppercase {Scrum}}{10}{section.2.12}%
-\contentsline {section}{\numberline {2.13}\uppercase {Black Box Testing}}{11}{section.2.13}%
-\contentsline {section}{\numberline {2.14}\uppercase {Usability Metric for User Experience (UMUX)}}{12}{section.2.14}%
+\contentsline {section}{\numberline {2.11}\uppercase {VIRTUAL PRIVATE SERVER (VPS)}}{10}{section.2.11}%
+\contentsline {section}{\numberline {2.12}\uppercase {SCRUM}}{10}{section.2.12}%
+\contentsline {section}{\numberline {2.13}\uppercase {BLACK BOX TESTING}}{11}{section.2.13}%
+\contentsline {section}{\numberline {2.14}\uppercase {USABILITY MATRIC FOR USER EXPERIENCE (UMUX)}}{12}{section.2.14}%
 \contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{14}{chapter.3}%
 \contentsline {section}{\numberline {3.1}\uppercase {WAKTU DAN LOKASI PENELITIAN}}{14}{section.3.1}%
 \contentsline {section}{\numberline {3.2}\uppercase {ALAT DAN BAHAN}}{14}{section.3.2}%
@@ -46,18 +46,22 @@
 \contentsline {section}{\numberline {4.1}\uppercase {Analisis Kebutuhan}}{19}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Kategori Pengguna}{19}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Kebutuhan Pengguna}{19}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}\uppercase {Perancangan Sistem}}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}\textit {Use Case Diagram}}{20}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}\textit {Sequence Diagram}}{22}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}\textit {Activity Diagram}}{27}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}\textit {Entity Relationship Diagram}}{37}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Antarmuka Aplikasi}{40}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}\uppercase {Implementasi Sistem}}{56}{section.4.3}%
-\contentsline {section}{\numberline {4.4}\uppercase {Pengujian Sistem}}{61}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Pengujian Fungsionalitas Menggunakan Black Box}{61}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Pengujian \textit {Usability} Menggunakan Metode UMUX}{64}{subsection.4.4.2}%
-\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{66}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\uppercase {KESIMPULAN}}{66}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\uppercase {SARAN}}{66}{section.5.2}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{69}{chapter*.73}%
-\contentsline {chapter}{LAMPIRAN}{70}{chapter*.73}%
+\contentsline {subsection}{\numberline {4.1.3}\textit {Business Rule}}{20}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Syarat Pendaftar}{21}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Aturan Aplikasi}{21}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}\uppercase {Perancangan Sistem}}{21}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}\textit {Use Case Diagram}}{22}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}\textit {Sequence Diagram}}{23}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}\textit {Activity Diagram}}{29}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}\textit {Deployment Diagram}}{39}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}\textit {Entity Relationship Diagram}}{40}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Antarmuka Aplikasi}{44}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}\uppercase {Implementasi Sistem}}{62}{section.4.3}%
+\contentsline {section}{\numberline {4.4}\uppercase {Pengujian Sistem}}{67}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Pengujian Fungsionalitas Menggunakan Black Box}{67}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Pengujian \textit {Usability} Menggunakan Metode UMUX}{70}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{72}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\uppercase {KESIMPULAN}}{72}{section.5.1}%
+\contentsline {section}{\numberline {5.2}\uppercase {SARAN}}{72}{section.5.2}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{74}{chapter*.76}%
+\contentsline {chapter}{LAMPIRAN}{75}{chapter*.76}%

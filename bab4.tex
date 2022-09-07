@@ -65,8 +65,60 @@ Setelah mengetahui kategori pengguna, selanjutnya dilakukan analisis kebutuhan u
 	\end{center}
 \end{table}
 
+\fancyhf{} 
+\fancyfoot[R]{\thepage}
+
+\subsection{\textit{Business Rule}}
+
+% Aturan bisnis (business rule) adalah sebuah pernyataan yang menjelaskan kebijakan bisnis atau keputusan prosedur. Beberapa bahasa pemrograman menjalankan aturan-aturan bisnis secara bersamaan menjadi algoritma yang sangat kompleks.
+
+% Aturan bisnis merupakan salah satu sumber utama kebutuhan fungsional perangkat lunak. Hal ini dikarenakan aturan bisnis bisa mendikte/memaksa sistem untuk memiliki kemampuan/fungsi/fitur tertentu yang juga digunakan untuk mengkonfirmasikan aturan-aturan itu sendiri.
+
+\textit{Business Rule} atau aturan bisnis merupakan salah satu sumber utama kebutuhan fungsional perangkat lunak. Hal ini dikarenakan aturan bisnis bisa membuat sistem agar memiliki fungsi atau fitur tertentu yang juga digunakan untuk mengkonfirmasikan aturan-aturan itu sendiri. Adapun aturan bisnisnya dapat dilihat sebagai berikut:
+
+% Aturan bisnis biasanya dituliskan dalam dokumentasi sederhana terkait sistem yang dibangun dan menghubungkannya dengan spesifikasi kebutuhan fungsional.
+
+\begin{enumerate}
+	\item Setiap email \textit{user} tidak boleh sama.
+	% \item Penjual harus memiliki akun agar bisa menjual produknya di aplikasi.
+	\item Penjual harus didaftarkan oleh admin dan tidak bisa mendaftar sendiri.
+	\item Penjual harus memiliki email yang aktif agar dapat melakukan verifikasi akun.
+	% \item Penjual tidak dapat membatalkan pesanan tanpa menuliskan alasan
+	% \item penjual tidak boleh mengupload gambar produk yang tidak sesuai dengan gambar aslinya
+	\item Jika dalam 2 hari pesanan tidak diproses, maka otomatis akan dibatalkan oleh sistem.
+	\item Ongkos kirim yang diinputkan tidak boleh lebih dari Rp10.000.
+	\item Hanya admin yang dapat menambahkan promo di aplikasi.
+	% \item Hanya pembeli yang sudah mempunyai akun yang dapat memesan produk.
+	% \item Pembayaran hanya bisa dilakukan secara tunai (\textit{cash on delivery}).
+	\item Penjual yang melakukan pelanggaran akan diblokir oleh admin.
+\end{enumerate}
+
+\subsection{Syarat Pendaftar}
+
+Penjual yang ingin mendaftar pada aplikasi ini mempunyai beberapa persyaratan yang harus dipenuhi terlebih dahalu agar dapat menjadi penjual pada aplikasi ini. Berikut beberapa persyaratannya yaitu :
+
+\begin{enumerate}
+	\item Minimal usaha tanaman hidroponik sudah berjalan 1 tahun.
+	\item Siap mengikuti harga yang sudah ditetapkan bersama.
+	\item Memiliki minimal 1000 lubang tanam.
+	\item Sayuran yang dijual tidak disemprot pestisida.
+\end{enumerate}
+
+\subsection{Aturan Aplikasi}
+
+Penjual yang sudah memiliki akun pada aplikasi ini harus mematuhi aturan-aturan dalam menggunakan aplikasi ini agar terhindar dari sanksi yang diberikan oleh admin yaitu pemblokiran akun. Aturan ini dibuat agar penjual tidak merugikan pembeli. Adapun aturannya dapat dilihat sebagai berikut:
+
+\begin{enumerate}
+	\item Gambar produk yang diunggah merupakan foto produk asli.
+	\item Pemberian nama produk harus lengkap dan jelas.
+	\item Dilarang menetapkan harga yang tidak wajar pada produk yang dijual.
+	\item Segera memproses pesanan dari pembeli paling lama 2 hari.
+	\item Menggunakan foto profil usaha.
+	\item Menjaga kualitas produk yang dijual.
+\end{enumerate}
+
 \section{\uppercase{Perancangan Sistem}}
-Proses akan dilanjutkan ke perancangan sistem yang melibatkan perancangan \textit{use case diagram}, \textit{sequence diagram}, \textit{activity diagram}, \textit{entity relationship diagram} dan antarmuka aplikasi. 
+Proses akan dilanjutkan ke perancangan sistem yang melibatkan perancangan \textit{use case diagram}, \textit{sequence diagram}, \textit{activity diagram}, \textit{deployment diagram}, \textit{entity relationship diagram} dan antarmuka aplikasi. 
 
 \subsection{\textit{Use Case Diagram}}
 \textit{Use case diagram} adalah diagram yang menjelaskan interaksi antara pengguna atau yang disebut aktor dengan sistem. Selain itu \textit{Use case diagram} juga memperlihatkan fitur apa saja yang dapat dilakukan oleh sistem. Gambar \ref*{use_case_diagram} merupakan gambaran \textit{Use case diagram} untuk aplikasi penjualan tanaman hidroponik berbasis web :
@@ -79,7 +131,7 @@ Proses akan dilanjutkan ke perancangan sistem yang melibatkan perancangan \texti
 \end{figure}
 
 \par Gambar \ref*{use_case_diagram} merupakan\textit{ Use case diagram} yang menjelaskan interaksi antara superadmin, admin dan penjual dengan sistem aplikasi. Di mana level yang paling tinggi di sistem ini adalah superadmin yang bertindak untuk mendaftarkan admin, lalu nantinya para admin inilah yang bertugas mendaftarkan para penjual yang ingin menjual produknya di aplikasi AgriHub ini. Superadmin dan admin di sini dapat memantau informasi semua pengguna yang sudah terdaftar diaplikasi baik itu penjual maupun pembeli yang mendaftar lewat aplikasi Android dan dapat melihat produk-produk apa saja yang telah diunggah oleh para penjual, serta dapat menghapusnya jika dianggap tidak sesuai. Superadmin dan admin juga dapat melihat semua pesanan yang sudah terjadi antara penjual dengan pembeli, melihat ulasan dari pembeli terhadap produk yang dibeli dari penjual serta dapat mengadakan promo sesekali di aplikasinya dan dapat melihat laporan yang masuk dari pembeli terhadap penjual serta dapat mengambil tindakan seperti memblokir penjual tersebut dari sistem.
-\newpage
+
 \par Sedangkan dari sisi aktor penjual. Setelah penjual didaftarkan oleh admin, penjual harus memverifikasi emailnya terlebih dahulu sebelum bisa menggunakan aplikasinya. Baru setelah verifikasi email penjual dapat menggunakan aplikasinya untuk menambahkan produk yang ingin dijualnya, mengelolanya seperti mengubah dan menghapus produk, menerima pesanan dari pembeli dan mengubah statusnya dari belum menjadi diproses, dikirim dan sampai selesai. Penjual juga dapat melihat ulasan-ulasan dari pembeli terhadap pesanan dan produk yang ia jual di aplikasi.
 
 % \subsection{\textit{Business Diagram}}
@@ -106,38 +158,42 @@ Proses akan dilanjutkan ke perancangan sistem yang melibatkan perancangan \texti
 \subsection{\textit{Sequence Diagram}}
 \textit{Sequence diagram} atau diagram urutan adalah sebuah diagram yang digunakan untuk menjelaskan dan menampilkan interaksi antar objek-objek dalam sebuah sistem secara terperinci. Selain itu \textit{sequence diagram} juga akan menampilkan pesan atau perintah yang dikirim, beserta waktu pelaksanaannya. Objek-objek yang berhubungan dengan berjalannya proses operasi biasanya diurutkan dari kiri ke kanan. Berikut merupakan \textit{sequence} diagram dalam penelitian ini :
 
+% \newpage
 \begin{enumerate}
 	\item \textit{Sequence Diagram Login}
 	\begin{figure}[H]
 		\centering
-		{\includegraphics [width = 12cm, height= 7.6cm]{gambar/sequence/login}}
+		{\includegraphics [width = 12cm, height= 8cm]{gambar/sequence/login}}
 		\caption{\textit{Sequence Diagram Login}}
 		\label{seq login}
 	\end{figure}
+	\newpage
 	\par Gambar \ref*{seq login} memperlihatkan urutan interaksi ketika pengguna ingin \textit{login} ke dalam sistem. Pengguna mengisi \textit{email} dan \textit{password} pada halaman \textit{login}, kemudian sistem akan mengirimkan data tersebut ke \textit{database} untuk divalidasi apakah terdaftar atau tidak. Jika tidak terdaftar atau tidak sesuai maka sistem akan menampilkan pesan \textit{email} dan \textit{password} salah, tapi jika terdaftar dan sesuai maka sistem akan menampilkan \textit{dashboard} kepada pengguna.
 
 	\item \textit{Sequence Diagram} Menu Produk
 	\begin{figure}[H]
 		\centering
-		{\includegraphics [width = 12cm, height= 7.35cm]{gambar/sequence/tambah, ubah, hapus produk}}
+		{\includegraphics [width = 12cm, height= 8cm]{gambar/sequence/tambah, ubah, hapus produk}}
 		\caption{\textit{Sequence Diagram} Menu Produk}
 		\label{seq produk}
 	\end{figure}
 	\par Gambar \ref*{seq produk} memperlihatkan urutan interaksi ketika penjual mengakses menu produk, penjual dapat menambahkan produk dengan menklik tombol tambah dan mengisi data produk pada form yang tampil, kemudian sistem melakukan proses penyimpanan data ke dalam tabel produk. Jika penjual ingin mengubah atau menghapus produk dapat menklik tombol ubah di halaman produk, kemudian sistem akan memanggil data produk berdasarkan idnya dan menampilkan kembali data produknya setelah diubah atau dapat menklik tombol hapus maka sistem akan menghapus data produknya dari tabel produk.
 
+	\newpage
 	\item \textit{Sequence Diagram} Menu Pesanan
 	\begin{figure}[H]
 		\centering
-		{\includegraphics [width = 12cm, height= 7.35cm]{gambar/sequence/proses pesanan}}
+		{\includegraphics [width = 12.5cm, height= 9.5cm]{gambar/sequence/proses pesanan}}
 		\caption{\textit{Sequence Diagram} Menu Pesanan}
 		\label{seq pesanan}
 	\end{figure}
 	\par Gambar \ref*{seq pesanan} memperlihatkan urutan interaksi ketika penjual mengakses menu pesanan. Penjual dapat memproses pesanan yang masuk atau membatalkannya dengan menklik tombol tinjau pesanan, lalu mengisi ongkos kirim dan mengubah status pesanan menjadi diproses, dikirim atau selesai jika ingin memprosesnya, namun jika ingin membatalkannya dapat memilih batal. Kemudian sistem akan mencari data pesanan tersebut berdasarkan id\_order dan mengupdate data pesanannya lalu menampilkan kembali data pesanan pada halaman pesanan.
 
+	\newpage
 	\item \textit{Sequence Diagram} Menu Promo
 	\begin{figure}[H]
 		\centering
-		{\includegraphics [width = 12cm, height= 8cm]{gambar/sequence/tambah, ubah, hapus promo}}
+		{\includegraphics [width = 12.5cm, height= 9.5cm]{gambar/sequence/tambah, ubah, hapus promo}}
 		\caption{\textit{Sequence Diagram} Menu Promo}
 		\label{seq promo}
 	\end{figure}
@@ -322,18 +378,35 @@ Diagram} digunakan oleh pengembang aplikasi untuk memahami alur program yang aka
 	\par Gambar \ref*{ubah profil} memperlihatkan aktivitas ketika pengguna ingin mengubah profil akunnya. Pengguna masuk ke dalam aplikasi lalu menekan ikon foto dan memilih profil, maka akan diarahkan ke halaman ubah profil. Pengguna dapat mengubah data akunnya seperti foto profil, nama, email, nomor hp, alamat dan \textit{password}. Setelah selesai melakukan perubahan dan menekan tombol simpan, maka sistem akan memeriksa data perubahannya. Jika data \textit{input}nya valid maka akan disimpan di sistem.
 \end{enumerate}
 
+\subsection{\textit{Deployment Diagram}}
+	\textit{Deployment Diagram} merupakan diagram yang digunakan untuk menggambarkan, menspesifikasikan, serta mendokumentasikan proses yang berlangsung di dalam sistem yang berbasis OOP atau \textit{Object Oriented Programming} yang akan dibangun. \textit{Deployment Diagram} juga digunakan untuk memvisualisasikan hubungan antara \textit{software} dan \textit{hardware} serta menjelaskan secara detail bagaimana komponen disebar atau di\textit{deploy} ke dalam infrastruktur sebuah sistem. \textit{Deployment Diagram} dapat dilihat pada Gambar \ref{deployment} berikut ini.
+	
+	% diagram yang menjelaskan secara detail bagaimana kompenen disebar atau di dideploy ke dalam infrastruktur sebuah sistem.
+	
+	% diagram untuk memvisualisasikan hubungan antara software dan hardware. 
+
+	% Deployment Diagram merupakan diagram yang digunakan untuk menggambarkan, menspesifikasikan, serta mendokumentasikan proses yang berlangsung di dalam sistem yang berbasis OOP atau Object Oriented Programming yang akan dibangun.
+
+	\begin{figure}[H]
+		\centering
+		{\includegraphics [width = 12cm, height= 8cm]{gambar/deployment}}
+		\caption{\textit{Deployment Diagram}}
+		\label{deployment}
+	\end{figure}
+	\par Gambar \ref*{deployment} memperlihatkan \textit{deployment diagram} dari sistem yang dibangun. Dimana \textit{file} dari aplikasi termasuk \textit{style.css} dan \textit{jQuery.js} akan di\textit{deploy} ke server lalu untuk web servernya akan diinstal Nginx dan untuk \textit{database} aplikasi menggunakan MySQL. Setelah aplikasi selesai di\textit{deploy} ke server, maka jika \textit{client} ingin mengakses aplikasi dapat melakukannya dengan menggunakan \textit{browser}.
+
 \subsection{\textit{Entity Relationship Diagram}}
 \textit{Entity Relationship Diagram} (ERD) merupakan diagram yang menggambarkan hubungan antar data-data yang ada disistem yang saling berelasi satu sama yang lain. \textit{Entity Relationship Diagram} (ERD) dapat dilihat pada Gambar \ref{erd} berikut ini.
 \begin{landscape}
 	\begin{figure}[H]
 		\centering
-		{\includegraphics [width = 22cm, height= 13cm]{gambar/erd}}
+		{\includegraphics [width = 18.5cm, height= 13cm]{gambar/erd}}
 		\caption{\textit{Entity Relationship Diagram}}
 		\label{erd}
 	\end{figure}
 \end{landscape}
 
-ERD yang dibuat pada penelitian ini mempunyai 9 entitas. Tiap entitas mempunyai atributnya masing-masing. Relasi antar entitas di dalam sistem ini memiliki kardinalitas (derajat) \textit{one to many}.  Adapun 9 entitas tersebut yang terdiri dari :
+ERD yang dibuat pada penelitian ini mempunyai 12 entitas. Tiap entitas mempunyai atributnya masing-masing.  Adapun 12 entitas tersebut yang terdiri dari :
 
 \begin{enumerate}
 	\item Entitas \textit{users}
@@ -348,16 +421,19 @@ ERD yang dibuat pada penelitian ini mempunyai 9 entitas. Tiap entitas mempunyai 
 	\par Entitas ini akan menyimpan data promo yang akan digunakan ketika suatu produk memiliki potongan harga atau promo. Pada entitas \textit{promos} terdapat 5 atribut yaitu : id, nama, gambar, potongan, awal\_periode, akhir\_periode, dan keterangan . Atribut id akan menjadi \textit{primary key} serta di dalam entitas ini tidak memiliki \textit{foreign key} apapun.
 	\newpage
 	\item Entitas \textit{orderMappings}
-	\par Entitas ini akan menyimpan data setiap produk yang dipilih oleh pembeli ketika pembeli memesan produk atau melakukan checkout di dalam aplikasi berbasis Android. Pada entitas \textit{orderMappings} terdapat 7 atribut yaitu : id, id\_pembeli,
-	id\_produk, id\_order, status\_checkout, status\_feedback, dan jumlah. Atribut id
-	akan menjadi \textit{primary key} serta id\_pembeli dari entitas \textit{users}, id\_produk dari entitas \textit{produks} dan id\_order dari entitas \textit{orders} akan menjadi \textit{foreign key}.
+	\par Entitas ini akan menyimpan data setiap produk yang dipilih oleh pembeli ketika pembeli memesan produk atau melakukan checkout di dalam aplikasi berbasis Android. Pada entitas \textit{orderMappings} terdapat 7 atribut yaitu : id, id\_pembeli, id\_produk, id\_order, status\_checkout, status\_feedback, dan jumlah. Atribut id akan menjadi \textit{primary key} serta id\_pembeli dari entitas \textit{users}, id\_produk dari entitas \textit{produks} dan id\_order dari entitas \textit{orders} akan menjadi \textit{foreign key}.
 	\item Entitas \textit{orders}
 	\par Entitas ini akan menyimpan data pesanan pembeli yang berasal dari entitas \textit{orderMappings}. Pada entitas \textit{orders} terdapat 7 atribut yaitu : id, id\_pembeli, id\_penjual, total\_harga, status\_order harga\_jasa\_pengiriman, dan tanggal. Atribut id akan menjadi \textit{primary key} serta id\_pembeli dan id\_penjual dari entitas \textit{users} akan menjadi \textit{foreign key}.
 	\item Entitas \textit{feedbacks}
-	\par Entitas ini akan menyimpan data ulasan setiap produk yang diberikan oleh pembeli. Pada entitas \textit{feedbacks} terdapat 5 atribut yaitu : id, id\_produk,
-	id\_pembeli, komentar, dan rating. Atribut id akan menjadi \textit{primary key} serta id\_pembeli dari entitas \textit{users} dan id\_produk dari entitas \textit{produks} akan menjadi \textit{foreign key}.
+	\par Entitas ini akan menyimpan data ulasan setiap produk yang diberikan oleh pembeli. Pada entitas \textit{feedbacks} terdapat 5 atribut yaitu : id, id\_produk, id\_pembeli, komentar, dan rating. Atribut id akan menjadi \textit{primary key} serta id\_pembeli dari entitas \textit{users} dan id\_produk dari entitas \textit{produks} akan menjadi \textit{foreign key}.
 	\item Entitas \textit{reports}
-	\par Entitas ini akan menyimpan data laporan tentang penjual yang dilakukan oleh pembeli. Pada entitas \textit{reports} terdapat 5 atribut yaitu : id, id\_penjual, id\_pembeli, isi\_laporan, dan tanggal. Atribut id akan menjadi \textit{primary key} serta id\_pembeli dan id\_penjual dari entitas \textit{users} akan menjadi \textit{foreign key}.
+	\par Entitas ini akan menyimpan data keluhan dari pembeli terhadap penjual. Pada entitas \textit{reports} terdapat 5 atribut yaitu : id, id\_penjual, id\_pembeli, isi\_laporan, dan tanggal. Atribut id akan menjadi \textit{primary key} serta id\_pembeli dan id\_penjual dari entitas \textit{users} akan menjadi \textit{foreign key}.
+	\item Entitas \textit{mapping\_kabupaten\_kotas}
+	\par Entitas ini akan menyimpan data kode dari kabupaten atau kota yang dipilih oleh admin sebagai lokasi tersedianya aplikasi bagi pengguna. Pada entitas \textit{mapping\_kabupaten\_kotas} terdapat 2 atribut yaitu : id, dan kode. Atribut id akan menjadi \textit{primary key} serta di dalam entitas ini tidak memiliki \textit{foreign key} apapun.
+	\item Entitas \textit{ref\_kabupaten\_kotas}
+	\par Entitas ini menyimpan data semua kabupaten dan kota yang ada di Indonesia. Pada entitas \textit{ref\_kabupaten\_kotas} terdapat 3 atribut yaitu : id, kode dan nama. Atribut id akan menjadi \textit{primary key} serta di dalam entitas ini tidak memiliki \textit{foreign key} apapun.
+	\item Entitas \textit{ref\_kecamatans}
+	\par Entitas ini menyimpan data semua kecamatan yang ada di Indonesia. Pada entitas \textit{ref\_kecamatans} terdapat 3 atribut yaitu : id, kode dan nama. Atribut id akan menjadi \textit{primary key} serta di dalam entitas ini tidak memiliki \textit{foreign key} apapun.
 \end{enumerate}
 	
 \subsection{Antarmuka Aplikasi}
@@ -368,22 +444,22 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 	
 	Antarmuka aplikasi pada bagian superadmin/admin memiliki beberapa halaman yang dapat dilihat sebagai berikut :
 
-	\newpage
 	\begin{enumerate}[a.]
 		\item Halaman Utama
 		\par Halaman utama merupakan halaman yang pertama kali tampil ketika mengakses aplikasi web melalui \textit{browser}. Pada halaman utama ini terdapat 2 \textit{tab} navigasi dipojok kanan atas yaitu \textit{tab} informasi dan \textit{tab} masuk. Halaman utama dapat dilihat pada gambar \ref*{homepage}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/homepage}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/homepage}}
 			\caption{Halaman Utama}
 			\label{homepage}
 		\end{figure}
 
+		\newpage
 		\item Halaman Masuk
 		\par Halaman masuk merupakan halaman yang berfungsi untuk masuk ke dalam aplikasi dengan cara mengisi \textit{email} dan \textit{password} lalu menekan tombol Masuk yang berwarna hijau. Apabila data yang diisi benar, maka proses masuk akan berhasil. Halaman masuk dapat dilihat pada gambar \ref*{login}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/login}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/login}}
 			\caption{Halaman Masuk}
 			\label{login}
 		\end{figure}
@@ -392,7 +468,7 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Setelah berhasil masuk ke aplikasi, maka akan tampil halaman dasbor. Halaman ini berisi informasi data jumlah produk yang sudah diunggah oleh para penjual, jumlah pesanan yang sudah terjadi di aplikasi, jumlah promo yang sedang berlangsung, jumlah pengguna yang sudah terdaftar di aplikasi, jumlah laporan yang masuk dari pembeli, dan jumlah ulasan yang sudah diberikan oleh pembeli terhadap produk yang dijual oleh penjual. Serta ditampilkan grafik jumlah pesanan yang selesai dan batal perbulannya dari para penjual, dan grafik jumlah produk baru yang diunggah oleh para penjual selama 6 bulan terakhir serta grafik jumlah admin, penjual dan pembeli. Halaman dasbor admin dapat dilihat pada gambar \ref*{dashboard_admin}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/dashboard_admin}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/dashboard_admin}}
 			\caption{Halaman Dasbor pada sisi Admin}
 			\label{dashboard_admin}
 		\end{figure}
@@ -401,13 +477,13 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Pada halaman produk, admin dapat melihat informasi mengenai produk seperti id produk, gambar produk, nama produk dan lainnya. Admin juga dapat melakukan pencarian produk tertentu dengan memasukkan kata kunci di kolom cari produk, serta dapat memfilter produk berdasarkan satuannya dan menampilkan produk per halaman sebanyak 5, 10, atau 25 data. Dikarenakan gambar produk bisa lebih dari 1 maka admin dapat melihat gambar produk lainnya beserta dengan keterangan produk dan jumlah/satuannya dengan menekan tombol Lihat. Admin juga dapat menghapus produk penjual jika diperlukan dengan menekan tombol Hapus. Halaman produk dan tampilan detail produk dapat dilihat pada gambar \ref*{produk_admin} dan \ref*{lihat_produk_admin}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/produk_admin}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/produk_admin}}
 			\caption{Halaman Produk pada sisi Admin}
 			\label{produk_admin}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/lihat_produk_admin}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/lihat_produk_admin}}
 			\caption{Tampilan Detail Produk}
 			\label{lihat_produk_admin}
 		\end{figure}
@@ -416,19 +492,19 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Pada halaman pesanan admin dapat melihat semua pesanan yang sudah terjadi diaplikasi antara penjual dengan pembeli, dan dapat memfilter datanya berdasarkan status pesanannya. Admin juga dapat melihat detail pesanan dengan menekan tombol Detail serta dapat mengekspor datanya dalam bentuk pdf jika diperlukan dengan menekan tombol \textit{Export} PDF. Halaman pesanan dan tampilan detail serta ekspor pdf pesanan dapat dilihat pada gambar \ref*{pesanan_admin} hingga gambar \ref*{export_pesanan_admin}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/pesanan_admin}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/pesanan_admin}}
 			\caption{Halaman Pesanan pada sisi Admin}
 			\label{pesanan_admin}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/detail_pesanan}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/detail_pesanan}}
 			\caption{Tampilan Detail Pesanan}
 			\label{detail_pesanan}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/export_pesanan_admin}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/export_pesanan_admin}}
 			\caption{Tampilan Ekspor PDF Pesanan pada sisi Admin}
 			\label{export_pesanan_admin}
 		\end{figure}
@@ -437,19 +513,19 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Pada halaman ini admin dapat mengelola promo seperti menambahkan promo baru ke dalam aplikasi sehingga nantinya dapat digunakan oleh para penjual, dan dapat juga mengubah data promo yang sudah ada atau menghapusnya. Halaman promo dan tampilan tambah serta ubah promo dapat dilihat pada gambar \ref*{promo} hingga gambar \ref*{ubah_promo}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/promo}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/promo}}
 			\caption{Halaman Promo}
 			\label{promo}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/tambah_promo}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/tambah_promo}}
 			\caption{Tampilan Tambah Promo}
 			\label{tambah_promo}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/ubah_promo}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/ubah_promo}}
 			\caption{Tampilan Ubah Promo}
 			\label{ubah_promo}
 		\end{figure}
@@ -458,46 +534,55 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Pada halaman pengguna ini admin data melihat semua data pengguna yang sudah terdaftar diaplikasi AgriHub ini baik itu admin, penjual maupun pembeli, serta dapat memblokir penjual atau pembeli yang melanggar. Juga dapat menambahkan akun penjual baru dengan menekan tombol tambah penjual dan mengisi data penjual. Halaman pengguna dan tampilan tambah akun penjual dapat dilihat pada gambar \ref*{pengguna}-\ref*{tambah_pengguna}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/pengguna}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/pengguna}}
 			\caption{Halaman Pengguna}
 			\label{pengguna}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/tambah_pengguna}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/tambah_pengguna}}
 			\caption{Tampilan Tambah Akun Penjual}
 			\label{tambah_pengguna}
 		\end{figure}
 
-		\item Halaman Laporan
-		\par Pada halaman ini admin dapat melihat data laporan yang masuk dari para pembeli terhadap penjual seperti id, tanggal, isi laporan, nama pelapor dan nama penjual yang dilaporkan. Setelah mendapat laporan dari pembeli, admin dapat mengambil tindakan pemblokiran pada akun penjual tersebut melalui halaman pengguna. Halaman laporan dapat dilihat pada gambar \ref*{laporan}.
+		\item Halaman Keluhan
+		\par Pada halaman ini admin dapat melihat data keluhan yang masuk dari para pembeli terhadap penjual seperti id, tanggal, isi keluhan, nama pengirim dan nama penjual yang dikeluhkan. Setelah mendapat keluhan dari pembeli, admin bisa saja mengambil tindakan pemblokiran pada akun penjual tersebut jika diperlukan melalui halaman pengguna. Halaman keluhan dapat dilihat pada gambar \ref*{keluhan}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/laporan}}
-			\caption{Halaman Laporan}
-			\label{laporan}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/keluhan}}
+			\caption{Halaman Keluhan}
+			\label{keluhan}
 		\end{figure}
 
 		\item Halaman Ulasan
 		\par Halaman ulasan berisi semua ulasan yang sudah diberikan oleh para pembeli terhadap produk yang dia beli dari penjual. Admin dapat memfilter ulasannya berdasarkan \textit{rating} bintang yang diberikan oleh pembeli dan dapat juga menghapus ulasan pembeli jika dianggap mengandung kata tidak pantas. Halaman ulasan dapat dilihat pada gambar \ref*{ulasan_admin}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/admin/ulasan_admin}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/ulasan_admin}}
 			\caption{Halaman Ulasan pada sisi Admin}
 			\label{ulasan_admin}
 		\end{figure}
+
+		\newpage
+		\item Halaman Lokasi
+		\par Halaman lokasi merupakan halaman dimana admin dapat memilih lokasi dimana aplikasi ini akan tersedia bagi pengguna. Dengan begitu setiap pembeli yang mendaftar hanya dapat memilih alamat sesuai dengan lokasi yang tersedia saja. Halaman lokasi dapat dilihat pada gambar \ref*{lokasi}.
+		\begin{figure}[H]
+			\centering
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/admin/lokasi}}
+			\caption{Halaman Lokasi}
+			\label{lokasi}
+		\end{figure}
 	\end{enumerate}
 
-	\newpage
 	\item Antarmuka Aplikasi Bagian Penjual
 	\par Antarmuka aplikasi pada bagian penjual pada dasarnya hampir sama seperti antarmuka pada bagian admin hanya saja ada beberapa halaman dan menunya yang berbeda. Halaman aplikasi pada bagian penjual sebagai berikut :
 
 	\begin{enumerate}[a.]
 		\item Halaman Informasi
-		\par Halaman informasi menampilkan informasi mengenai tata cara mendaftar sebagai penjual diaplikasi AgriHub ini. Penjual dapat mengakses halaman informasi ini dengan menklik \textit{tab} informasi yang ada dipojok kanan atas pada halaman utama. Halaman informasi dapat dilihat pada gambar \ref*{informasi}.
+		\par Halaman informasi menampilkan informasi mengenai tata cara mendaftar sebagai penjual diaplikasi AgriHub ini yaitu dengan cara menghubungi admin lewat nomor hp atau email yang tertera dan memberikan data penjual seperti nama, \textit{username}, email, nomor hp, alamat dan \textit{password}. Penjual dapat mengakses halaman informasi ini dengan menklik \textit{tab} informasi yang ada dipojok kanan atas pada halaman utama. Halaman informasi dapat dilihat pada gambar \ref*{informasi}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/informasi}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/informasi}}
 			\caption{Halaman Informasi}
 			\label{informasi}
 		\end{figure}
@@ -506,26 +591,26 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Halaman masuk (\textit{login}) penjual sama seperti pada bagian admin, hanya saja ada sedikit perbedaan ketika akun penjual diblokir oleh admin karna melakukan kesalahan. Maka akun penjual tersebut tidak bisa masuk ke dalam aplikasi. Supaya akunnya penjual dapat digunakan kembali bisa menghubungi admin terlebih dahulu. Tampilan diblokir dapat dilihat pada gambar \ref*{diblokir}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/diblokir}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/diblokir}}
 			\caption{Tampilan Diblokir}
 			\label{diblokir}
 		\end{figure}
 
+		\newpage
 		\item Halaman Lupa \textit{Password}
 		\par Apabila penjual lupa \textit{password} akunnya, maka dapat menklik tulisan lupa \textit{password} yang ada pada halaman masuk kemudian akan diarahkan ke halaman lupa \textit{password}. Pada halaman ini penjual dapat mengisikan emailnya, supaya nanti dikirimkan \textit{email reset password} ke alamat \textit{email} terdaftar untuk mengubah \textit{password}nya. Halaman lupa \textit{password} dapat dilihat pada gambar \ref*{lupa_password}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/lupa_password}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/lupa_password}}
 			\caption{Halaman Lupa \textit{Password}}
 			\label{lupa_password}
 		\end{figure}
 
-		\newpage
 		\item Halaman Dasbor
 		\par Apabila penjual telah berhasil masuk ke dalam aplikasi, maka akan tampil halaman dasbor yang berisi keterangan mengenai jumlah order baru yang masuk, lagi diproses, dikirim, yang sudah selesai dan jumlah order yang batal, serta jumlah ulasan yang sudah diberikan oleh pembeli. Juga ada grafik jumlah pendapatan perbulan yang sudah diperoleh oleh penjual beserta dengan jumlah pesanan yang selesai dan batal perbulannya selama 6 bulan terakhir. Halaman dasbor penjual dapat dilihat pada gambar \ref*{dashboard_penjual}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/dashboard_penjual}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/dashboard_penjual}}
 			\caption{Halaman Dasbor pada sisi Penjual}
 			\label{dashboard_penjual}
 		\end{figure}
@@ -534,13 +619,13 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Pada halaman produk ini penjual dapat mengelola produknya yang ingin dijual seperti menambahkan produk baru, mengubah data produk yang sudah ada atau menghapus produk yang tidak ingin dijual lagi. Apabila penjual ingin menambahkan produk baru dapat melakukannya dengan menekan tombol tambah, maka akan muncul tampilan tambah produk dan mengisi data-data produk seperti gambar, nama, harga, stok, satuan, jumlah per satuan dan keterangan. Ada juga kolom promo yang bersifat opsional yang bisa dipakai oleh penjual jika admin menyediakan promo. Jika penjual ingin mengubah data produk dapat menekan tombol ubah yang akan diarahkan ke halaman ubah produk dan jika ingin menghapus produk dapat menekan tombol hapus. Halaman produk dan tampilan tambah produk dapat dilihat pada gambar \ref*{produk_penjual} dan gambar \ref*{tambah_produk}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/produk_penjual}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/produk_penjual}}
 			\caption{Halaman Produk pada sisi Penjual}
 			\label{produk_penjual}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/tambah_produk}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/tambah_produk}}
 			\caption{Tampilan Tambah Produk}
 			\label{tambah_produk}
 		\end{figure}
@@ -549,7 +634,7 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Penjual dapat mengubah detail produk yang ia jual melalui halaman ubah produk ini. Di sini penjual dapat menambah atau menghapus gambar produk dan dapat mengubah detail produknya seperti nama, harga, stok, satuan dan lainnya. Halaman ubah produk dapat dilihat pada gambar \ref*{ubah_produk}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/ubah_produk}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/ubah_produk}}
 			\caption{Halaman Ubah Produk}
 			\label{ubah_produk}
 		\end{figure}
@@ -558,7 +643,7 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Selanjutnya ada halaman pesanan, halaman ini merupakan halaman yang paling penting bagi penjual karna pada halaman ini penjual mengelola semua pesanan yang masuk dari pembeli. Penjual dapat mengetahui informasi mengenai pesanannya seperti tanggal, jam, nama pembeli, jumlah item, ongkos kirim dan total harganya beserta status pesanannya. Halaman pesanan pada sisi penjual dapat dilihat pada gambar \ref*{pesanan_penjual} dibawah ini.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/pesanan_penjual}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/pesanan_penjual}}
 			\caption{Halaman Pesanan pada sisi Penjual}
 			\label{pesanan_penjual}
 		\end{figure}
@@ -566,14 +651,14 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Jika penjual ingin memproses pesanan dari pembeli maka dapat menekan tombol tinjau yang berwarna \textit{orange}, lalu mengisi harga ongkos kirimnya dan mengubah status pesanannya dari belum menjadi diproses. Tombol ini hanya tampil ketika status pesanannya masih belum diproses, lagi diproses dan dikirim. Namun apabila sudah selesai atau batal maka akan tampil tombol detail. Penjual dapat menghubungi pembeli di sini melalui tombol WhatApps apabila ada yang ingin ditanyakan lebih lanjut kepada pembeli. Dan penjual juga dapat menolak pesanannya dengan mengubah status pesanan menjadi batal. Tampilan tinjau pesanan dapat dilihat pada gambar \ref*{tinjau_pesanan}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/tinjau_pesanan}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/tinjau_pesanan}}
 			\caption{Tampilan Tinjau Pesanan}
 			\label{tinjau_pesanan}
 		\end{figure}
 		\par Apabila penjual ingin melihat daftar pesanannya dalam bentuk pdf dapat melakukannya dengan menekan tombol \textit{export} pdf yang berwarna merah, maka akan muncul tampilan hasilnya dalam bentuk pdf. Tampilan ekspor pdf pesanan pada sisi penjual dapat dilihat pada gambar \ref*{pdf_penjual}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/pdf_penjual}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/pdf_penjual}}
 			\caption{Tampilan Ekspor PDF Pesanan pada sisi Penjual}
 			\label{pdf_penjual}
 		\end{figure}
@@ -582,17 +667,26 @@ Antarmuka aplikasi adalah tampilan dari sebuah aplikasi yang dapat dilihat oleh 
 		\par Pada halaman ulasan ini penjual dapat melihat semua ulasan yang sudah diberikan oleh pembelinya terhadap produk yang ia jual. Dari ulasan ini dapat menjadi masukan bagi penjual untuk meningkatkan lagi kualitas produk yang ia tawarkan. Penjual juga dapat memfilter ulasannya berdasarkan ratingnya dan dapat menghapus ulasan dari pembeli jika dinilai ulasannya mengandung kata-kata yang tidak pantas. Halaman ulasan pada sisi penjual dapat dilihat pada gambar \ref*{ulasan}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/ulasan}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/ulasan}}
 			\caption{Halaman Ulasan pada sisi Penjual}
 			\label{ulasan}
 		\end{figure}
 
 		\newpage
+		\item Halaman Aturan
+		\par Halaman aturan berisi aturan-aturan yang harus dipatuhi oleh penjual agar tidak terkena sanksi dari admin yaitu pemblokiran akun. Halaman aturan dapat dilihat pada gambar \ref*{aturan}.
+		\begin{figure}[H]
+			\centering
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/aturan}}
+			\caption{Halaman Aturan}
+			\label{aturan}
+		\end{figure}
+
 		\item Halaman Ubah Profil
 		\par Terakhir ada halaman profil yaitu halaman di mana penjual dapat mengubah informasi mengenai akunnya seperti foto, nama, nomor hp dan alamat serta \textit{password}. Halaman ubah profil dapat dilihat pada gambar \ref*{profil}.
 		\begin{figure}[H]
 			\centering
-			{\includegraphics [width = 13cm, height= 7.5cm]{gambar/penjual/profil}}
+			{\includegraphics [width = 13.5cm, height= 8cm]{gambar/penjual/profil}}
 			\caption{Halaman Ubah Profil}
 			\label{profil}
 		\end{figure}
@@ -613,7 +707,7 @@ menggunakan \textit{framework} Laravel sebagai alat (\textit{tool}) untuk memban
 
 % \textit{Product backlog} dibuat berdasarkan \textit{user story} yang telah diperoleh pada hasil analisis kebutuhan pengguna.
 
-\newpage
+% \newpage
 \begin{enumerate}
 	\item \textit{Sprint} Pertama
 	\par Pada \textit{sprint} pertama ini, merupakan tahap awal pembuatan aplikasi seperti membuat \textit{file migration} untuk \textit{database}, \textit{Models} untuk setiap tabel dan relasinya, fungsi \textit{login}, fitur \textit{upload} produk dan beberapa tampilan (\textit{view}) halaman aplikasi serta API dasar untuk digunakan pada aplikasi Android. Adapun daftar \textit{product backlog} pada \textit{sprint} yang pertama dapat dilihat pada tabel \ref*{tab:sprint pertama} berikut ini.
@@ -748,9 +842,9 @@ public function register(Request $request)
 		\hline
 		fitur blokir akun penjual & Tinggi\\
 		\hline
-		\textit{view} halaman laporan & Sedang\\
+		\textit{view} halaman keluhan & Sedang\\
 		\hline
-		API \textit{get} dan \textit{post} laporan & Sedang\\
+		API \textit{get} dan \textit{post} keluhan & Sedang\\
 		\hline
 		\textit{view} halaman ulasan & Sedang\\
 		\hline
@@ -826,7 +920,7 @@ public function register(Request $request)
 		\hline
 		fitur ekspor pesanan dalam bentuk pdf & Sedang\\
 		\hline
-		tambah kolom jam pemesanan di \textit{view} pesanan & Rendah\\
+		tambah fitur lokasi & Tinggi\\
 		\hline
 		\end{tabular}
 		% \normalsize

@@ -188,7 +188,7 @@
 \def\nomenclaturename{DAFTAR SINGKATAN}%
 \def\abstractname{ABSTRAK}%
 \def\acknowledgmentname{HALAMAN PERSEMBAHAN}%
-\def\approvalname{PENGESAHAN SIDANG SARJANA}%
+\def\approvalname{PENGESAHAN}%
 \def\partname{BAGIAN}%
 \def\chaptername{BAB}%
 \def\appendixname{LAMPIRAN}%
@@ -286,7 +286,7 @@
        {\normalfont
         Oleh:\\
 		\vspace{1.0cm}
-        \MakeUppercase{\normalfont\bfseries\underline \@fullname}\\
+        \MakeUppercase{\normalfont\bfseries\underline {\@fullname}}\\
         \MakeUppercase{\normalfont\bfseries \@idnum}}\\
 		\vspace{2cm}
 		\vfill
@@ -306,44 +306,6 @@
 %------------------------------------------------------------
 %Approval Page
 %------------------------------------------------------------
-\def\cover{%
-	% it's me!
-	\newgeometry{a4paper,left=4cm,right=2.7cm,top=3cm,bottom=2.5cm}
-
-	\thispagestyle{empty}%
-	\pagenumbering{roman}
-	\setcounter{page}{1}
-	\begin{center}
-		\begin{singlespace}
-			\fontsize{14pt}{16pt}\selectfont\MakeUppercase{\Large{\bfseries\@judul}}\par\nobreak
-			\vspace{2.5cm}
-			\MakeUppercase{\large{\bfseries{Tugas Akhir}}}\\ %it's me!
-			\vspace{1.0cm}
-			\normalsize{Diajukan untuk melengkapi tugas-tugas dan\\ memenuhi syarat-syarat guna memperoleh gelar Sarjana Komputer\\} %it's me!
-			\vspace{1.0cm}
-			{\normalfont
-				Oleh:\\
-				\vspace{1.0cm}
-				\MakeUppercase{\normalfont\bfseries\underline \@fullname}\\
-				\MakeUppercase{\normalfont\bfseries \@idnum}}\\
-			\vspace{2cm}
-			\vfill
-			\includegraphics[width=0.3\textwidth]{gambar/logo_unsyiah.png}
-			\vfill
-			\vspace{2cm}
-			{\normalfont
-				\MakeUppercase{\normalfont\bfseries Jurusan \@dept}\\
-				\MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
-				\MakeUppercase{\normalfont\bfseries\@city}\\
-				%\vspace{0.5cm}
-				\MakeUppercase{\normalfont\bfseries\@yearsubmit}}\\
-		\end{singlespace}
-	\end{center}
-}
-
-%------------------------------------------------------------
-%Approval Page
-%------------------------------------------------------------
 \def\approvalpage{%
 	\chapter*{\approvalname}%
 	\begin{center}
@@ -354,16 +316,16 @@
 			\vspace{1cm}
 			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{\Large{\bfseries\@judull}}\par\nobreak
 
-			\vspace{1.0cm}
+			\vspace{0.8cm}
 			Oleh:
-			\vspace{-0.5cm}
+			\vspace{0.2cm}
 			\begin{singlespace}
 				\begin{compactitem}
 					\addtolength{\itemindent}{3cm}
 					\setlength{\parsep}{0pt}
-					\item[]{\makebox[2cm]{Nama\hfill} : \@fullname}
-					\item[]{\makebox[2cm]{NPM\hfill} : \@idnum}
-					\item[]{\makebox[2cm]{Jurusan\hfill} : \@dept}
+					\item[]{\makebox[2.7cm]{Nama\hfill} : \@fullname}
+					\item[]{\makebox[2.7cm]{NPM\hfill} : \@idnum}
+					\item[]{\makebox[2.7cm]{Program Studi\hfill} : \@dept}
 				\end{compactitem}
 			\end{singlespace}
 			\vspace{1.0cm}
@@ -371,35 +333,37 @@
 			%pada tanggal \@approvaldate
 			%\vspace{1.0cm}
 
-			Menyetujui:
+			Menyetujui:\\
 			\onehalfspacing
+			\vspace{0.2cm}
 				\begin{tabular}{lll}
-					Pembimbing I & \hspace{0.5cm}  & Pembimbing II \\
-					\vspace{0.3cm} & \vspace{0.3cm} & \vspace{0.3cm}\\
+					Pembimbing I & \hspace{3.0cm}  & Pembimbing II \\
+					\vspace{0.5cm} & \vspace{0.5cm} & \vspace{0.5cm}\\
 					\underline{\@firstsupervisor}& &
 					\underline{\@secondsupervisor} \\
 					NIP. \@firstnip & &  NIP. \@secondnip
 				\end{tabular}
 			%\end{singlespace}
-			\vspace{1cm}
+			\vspace{0.5cm}
 
 			% Mengetahui dekan dan kajur informatika
 			Mengetahui:\\
 			\onehalfspacing
+			\vspace{0.2cm}
 				\begin{tabular}{lll}
-					Dekan Fakultas MIPA & &
-					Ketua Jurusan Informatika FMIPA \\
-					\vspace{0.3cm} Universitas Syiah Kuala, & \vspace{0.3cm} & \vspace{0.3cm} Universitas Syiah Kuala,\\
-					\underline{Dr. Teuku M. Iqbalsyah, S.Si, M.Sc. }& &
-					\underline{Dr. Muhammad Subianto, S.Si, M.Si } \\
-					NIP. 197110101997031003 & &  NIP. 196812111994031005
+					Dekan Fakultas MIPA & \hspace{0.5cm} &
+					Koordinator Program Studi Informatika\\
+					\vspace{0.7cm}Universitas Syiah Kuala, & \vspace{0.7cm} & \vspace{0.7cm}Universitas Syiah Kuala,\\
+					\underline{Prof. Dr. Teuku M. Iqbalsyah, S.Si, M.Sc.}& &
+					\underline{Viska Mutiawani, B.IT, M.IT.} \\
+					NIP. 197110101997031003 & &  NIP. 198008312009122003
 				\end{tabular}
 			%\end{singlespace}
 
 		\end{doublespace}
 
 		\vspace{1.0cm}
-		Lulus Sidang Sarjana pada hari \@approvaldate
+		Lulus Sidang Sarjana pada hari Rabu, 24 Agustus 2022\@approvaldate
 	\end{center}
 
 	\addcontentsline{toc}{chapter}{\approvalname}
