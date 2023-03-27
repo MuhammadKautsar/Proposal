@@ -862,6 +862,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\proposal.aux
 INPUT proposal.aux
 INPUT proposal.aux
+INPUT .\bebas-plagiasi.aux
+INPUT bebas-plagiasi.aux
+INPUT bebas-plagiasi.aux
 INPUT .\abstrak-indonesia.aux
 INPUT abstrak-indonesia.aux
 INPUT abstrak-indonesia.aux
@@ -1014,11 +1017,21 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT .\abstrak-indonesia.tex
-INPUT .\abstrak-indonesia.tex
-INPUT .\abstrak-indonesia.tex
+INPUT .\bebas-plagiasi.tex
+INPUT .\bebas-plagiasi.tex
+INPUT .\bebas-plagiasi.tex
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+OUTPUT bebas-plagiasi.aux
+INPUT .\bebas-plagiasi.tex
+INPUT .\bebas-plagiasi.tex
+INPUT .\bebas-plagiasi.tex
+INPUT bebas-plagiasi.tex
+INPUT .\bebas-plagiasi.tex
+INPUT bebas-plagiasi.tex
+INPUT .\abstrak-indonesia.tex
+INPUT .\abstrak-indonesia.tex
+INPUT .\abstrak-indonesia.tex
 OUTPUT abstrak-indonesia.aux
 INPUT .\abstrak-indonesia.tex
 INPUT .\abstrak-indonesia.tex
@@ -1575,6 +1588,9 @@ INPUT .\gambar\dokumentasi\diskusi2.jpg
 INPUT .\gambar\dokumentasi\diskusi2.jpg
 INPUT .\gambar\dokumentasi\diskusi2.jpg
 INPUT proposal.aux
+INPUT .\bebas-plagiasi.aux
+INPUT bebas-plagiasi.aux
+INPUT bebas-plagiasi.aux
 INPUT .\abstrak-indonesia.aux
 INPUT abstrak-indonesia.aux
 INPUT abstrak-indonesia.aux

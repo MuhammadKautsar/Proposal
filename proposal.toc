@@ -1,18 +1,19 @@
 \babel@toc {bahasa}{}\relax 
 \babel@toc {bahasa}{}\relax 
-\contentsline {chapter}{ABSTRAK}{iii}{chapter*.2}%
+\contentsline {chapter}{Pernyataan Bebas Plagiasi}{iii}{chapter*.2}%
 \contentsline {chapter}{PENGESAHAN}{iii}{chapter*.1}%
+\contentsline {chapter}{ABSTRAK}{iv}{chapter*.4}%
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{ABSTRACT}{iv}{chapter*.3}%
+\contentsline {chapter}{ABSTRACT}{v}{chapter*.5}%
 \babel@toc {bahasa}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {bahasa}{}\relax 
-\contentsline {chapter}{KATA PENGANTAR}{v}{chapter*.4}%
-\contentsline {chapter}{DAFTAR ISI}{vii}{chapter*.5}%
-\contentsline {chapter}{DAFTAR TABEL}{viii}{chapter*.6}%
-\contentsline {chapter}{DAFTAR GAMBAR}{x}{chapter*.7}%
-\contentsline {chapter}{DAFTAR PROGRAM}{xi}{chapter*.8}%
-\contentsline {chapter}{DAFTAR LAMPIRAN}{xii}{chapter*.9}%
+\contentsline {chapter}{KATA PENGANTAR}{vi}{chapter*.6}%
+\contentsline {chapter}{DAFTAR ISI}{viii}{chapter*.7}%
+\contentsline {chapter}{DAFTAR TABEL}{ix}{chapter*.8}%
+\contentsline {chapter}{DAFTAR GAMBAR}{xi}{chapter*.9}%
+\contentsline {chapter}{DAFTAR PROGRAM}{xii}{chapter*.10}%
+\contentsline {chapter}{DAFTAR LAMPIRAN}{xiii}{chapter*.11}%
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}\uppercase {LATAR BELAKANG}}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}\uppercase {RUMUSAN MASALAH}}{2}{section.1.2}%
@@ -63,5 +64,5 @@
 \contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{72}{chapter.5}%
 \contentsline {section}{\numberline {5.1}\uppercase {KESIMPULAN}}{72}{section.5.1}%
 \contentsline {section}{\numberline {5.2}\uppercase {SARAN}}{72}{section.5.2}%
-\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{74}{chapter*.76}%
-\contentsline {chapter}{LAMPIRAN}{75}{chapter*.76}%
+\contentsline {chapter}{DAFTAR KEPUSTAKAAN}{74}{chapter*.78}%
+\contentsline {chapter}{LAMPIRAN}{75}{chapter*.78}%

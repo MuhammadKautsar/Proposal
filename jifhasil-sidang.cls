@@ -20,7 +20,8 @@
 
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
-\usepackage[a4paper,left=4cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+% \usepackage[a4paper,left=4cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+\usepackage[a4paper,left=3.5cm,right=3cm,top=3cm,bottom=3cm]{geometry}
 \usepackage{verbatim,enumerate}
 
 % Membantu penulisan notasi matematika terutama untuk dokumen dengan banyak rumus. it's me!
@@ -199,6 +200,7 @@
 \def\figurename{Gambar}%
 \def\tablename{Tabel}%
 \def\pagename{Halaman}%
+\def\bplagiasiname{PERNYATAAN BEBAS PLAGIASI}%
 }
 
 %English
@@ -375,6 +377,12 @@
   \chapter*{\acknowledgmentname}%
 \null\vfill%Force the content of acknowledment to bottom page
 \addcontentsline{toc}{chapter}{\acknowledgmentname}
+}
+
+\def\bplagiasi{%
+  \chapter*{\bplagiasiname}%
+  \vspace{0.2cm}
+\addcontentsline{toc}{chapter}{Pernyataan Bebas Plagiasi}
 }
 
 %------------------------------------------------------------
